@@ -8,5 +8,5 @@ slide_player:
 
 sound_player:
   mode_attract_started: 
-	  theme: 
-	    bus: music
+    theme: 
+      bus: music

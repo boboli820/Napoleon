@@ -1,0 +1,25 @@
+[gd_scene load_steps=2 format=3 uid="uid://c7hegpm1ay02j"]
+
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_m7nui"]
+
+[node name="Attract" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_m7nui")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 1280.0
+offset_bottom = 1024.0
+color = Color(1, 0.803922, 0.384314, 1)
+
+[node name="Label" type="Label" parent="ColorRect"]
+layout_mode = 0
+offset_left = 110.0
+offset_top = 322.0
+offset_right = 1189.0
+offset_bottom = 729.0
+theme_override_font_sizes/font_size = 80
+text = "Napoleon Dynamite"
+horizontal_alignment = 1
+vertical_alignment = 1

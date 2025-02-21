@@ -117,11 +117,10 @@ autofire_coils:
   ac_slingshot_left:
     coil: c_sling_left
     switch: s_sling_left
-    allow_enable: true
   ac_slingshot_right:
     coil: c_sling_right
     switch: s_sling_right
-    allow_enable: true
+    
 
 flippers:
   left_flipper:

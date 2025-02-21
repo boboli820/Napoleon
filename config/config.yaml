@@ -18,7 +18,7 @@ modes:
 
 hardware:
   platform: fast
-  #driverboards: fast
+  driverboards: fast
   
 fast:
   net:
@@ -88,10 +88,10 @@ switches:
 
 coils:
   c_flipper_left_main:
-    number: 3208-2
+    number: 3208-3
     allow_enable: true
   c_flipper_left_hold:
-    number: 3208-3
+    number: 3208-2
     allow_enable: true
   c_flipper_right_main:
     number: 3208-4

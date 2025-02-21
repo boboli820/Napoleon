@@ -18,9 +18,9 @@ S27=Flipper_Left_Button
 Coils
 C0=Plunge_Auto
 C1=Trough_Eject
-C2=Flipper_Left_Main
-C3=Flipper_Left_Hold
-C4=Flipper_Right_Main
-C5=Flipper_Right_Hold
+C3=Flipper_Left_Main
+C2=Flipper_Left_Hold
+C5=Flipper_Right_Main
+C4=Flipper_Right_Hold
 C6=Sling_Left
 C7=Sling_Right

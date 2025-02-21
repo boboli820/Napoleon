@@ -1,17 +1,10 @@
 #config_version=6
-#test update
-## MPF Main Machine Config File
-#
-# This file defines your system-wide properties like switches,
-# drivers, ball devices, hardware platforms, and more. You can
-# include everything here, or create sub-config files to be
-# imported and merged with this one.
 
-#mpf -xtb
-#x =virtual mode, no hardware
-#t =text logging output mode (no UI console)
-#b = standalone mode (no media controller)
-
+config:
+  - config_ball_devices.yaml
+  - config_coils.yaml
+  - config_switches.yaml
+  
 modes:
   - attract
   - base
@@ -54,70 +47,8 @@ fast:
     
 playfields:
   playfield:
+    default_source_device: bd_trough # this is the default location ball device
     tags: default
-    default_source_device: None  # use None in steps before 8
-
-switches:
-  s_flipper_left:
-    number: 3208-27
-    tags: left_flipper
-  s_flipper_left_eos:
-    number: 3208-5
-  s_flipper_right:
-    number: 3208-24
-    tags: right_flipper
-  s_flipper_right_eos:
-    number: 3208-1
-  s_sling_left:
-    number: 3208-6
-  s_sling_right:
-    number: 3208-9
-  s_plunger_lane:
-    number: 3208-0
-  s_launch_button:
-    number: 3208-26
-#!s_trough1:
-#!  number: 1
-#!s_trough2:
-#!  number: 2
-#!s_trough3:
-#!  number: 3
-#!s_trough4:
-#!  number: 4
-#!s_trough5:
-#!  number: 5
-#!s_trough6:
-#!  number: 6
-#!s_trough_jam:
-#!  number: 7
-
-coils:
-  c_flipper_left_main:
-    number: 3208-3
-    allow_enable: true
-    #allow_enable: true is added to enable fips during attract 
-  c_flipper_left_hold:
-    number: 3208-2
-    allow_enable: true
-    #allow_enable: true is added to enable fips during attract 
-  c_flipper_right_main:
-    number: 3208-5
-    allow_enable: true
-    #allow_enable: true is added to enable fips during attract 
-  c_flipper_right_hold:
-    number: 3208-4
-    allow_enable: true
-    #allow_enable: true is added to enable fips during attract 
-  c_sling_left:
-    number: 3208-6 
-    default_pulse_ms: 15
-  c_sling_right: 
-    number: 3208-7
-    default_pulse_ms: 15
-#c_trough_eject     
-  c_plunger:
-    number: 3208-0
-    default_pulse_ms: 20
 
 autofire_coils:
   ac_slingshot_left:
@@ -127,7 +58,6 @@ autofire_coils:
     coil: c_sling_right
     switch: s_sling_right
     
-
 flippers:
   left_flipper:
     main_coil: c_flipper_left_main
@@ -150,16 +80,4 @@ flippers:
     repulse_on_eos_open: true
     eos_active_ms_before_repulse: 500
     
-ball_devices:
-#  bd_trough:
-#    ball_switches: s_trough1, s_trough2, s_trough3, s_trough4, s_trough5, s_trough6, s_trough_jam
-#    eject_coil: c_trough_eject
-#    tags: trough, home, drain
-#    jam_switch: s_trough_jam
-#    eject_coil_jam_pulse: 15ms
-#    debug: true
-  bd_plunger:
-    ball_switches: s_plunger_lane
-    eject_coil: c_plunger
-    mechanical_eject: true
-    player_controlled_eject_event: s_launch_button_active
+

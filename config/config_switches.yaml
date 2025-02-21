@@ -1,0 +1,37 @@
+#config_version=6
+
+switches:
+#Cabinet Switches
+  s_flipper_left:
+    number: 3208-27
+    tags: left_flipper
+  s_flipper_left_eos:
+    number: 3208-5
+  s_flipper_right:
+    number: 3208-24
+    tags: right_flipper
+  s_flipper_right_eos:
+    number: 3208-1
+  s_sling_left:
+    number: 3208-6
+  s_sling_right:
+    number: 3208-9
+  s_plunger_lane:
+    number: 3208-0
+  s_launch_button:
+    number: 3208-26
+  #Trough Switches
+  s_trough_1:
+    number:
+  s_trough_2:
+    number:
+  s_trough_3:
+    number:
+  s_trough_4:
+    number:
+  s_trough_5:
+    number:
+  s_trough_6:
+    number:
+  s_trough_jam:
+    number:

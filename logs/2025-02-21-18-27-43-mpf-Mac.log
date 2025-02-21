@@ -1,0 +1,7 @@
+2025-02-21 18:27:43,060 : INFO : root : Loading config.
+2025-02-21 18:27:43,061 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-02-21 18:27:43,061 : WARNING : ConfigProcessor : Config file in cache changed: /Users/andre/Napoleon/config/config.yaml
+2025-02-21 18:27:43,061 : INFO : ConfigProcessor : Loading config from file /Users/andre/mpf/lib/python3.11/site-packages/mpf/mpfconfig.yaml.
+2025-02-21 18:27:43,065 : INFO : ConfigProcessor : Loading config: /Users/andre/mpf/lib/python3.11/site-packages/mpf/mpfconfig.yaml
+2025-02-21 18:27:43,065 : INFO : ConfigProcessor : Loading config from file /Users/andre/Napoleon/config/config.yaml.
+2025-02-21 18:27:43,066 : INFO : ConfigProcessor : Loading config: /Users/andre/Napoleon/config/config.yaml

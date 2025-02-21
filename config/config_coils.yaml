@@ -1,0 +1,30 @@
+#config_version=6
+
+coils:
+  c_flipper_left_main:
+    number: 3208-3
+    allow_enable: true
+    #allow_enable: true is added to enable fips during attract 
+  c_flipper_left_hold:
+    number: 3208-2
+    allow_enable: true
+    #allow_enable: true is added to enable fips during attract 
+  c_flipper_right_main:
+    number: 3208-5
+    allow_enable: true
+    #allow_enable: true is added to enable fips during attract 
+  c_flipper_right_hold:
+    number: 3208-4
+    allow_enable: true
+    #allow_enable: true is added to enable fips during attract 
+  c_sling_left:
+    number: 3208-6 
+    default_pulse_ms: 15
+  c_sling_right: 
+    number: 3208-7
+    default_pulse_ms: 15
+  c_trough_eject:
+    number: 
+  c_plunger:
+    number: 3208-0
+    default_pulse_ms: 20

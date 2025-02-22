@@ -1,6 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://c7hegpm1ay02j"]
+[gd_scene load_steps=6 format=3 uid="uid://c7hegpm1ay02j"]
 
 [ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_m7nui"]
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_carousel.gd" id="2_qes38"]
+[ext_resource type="Texture2D" uid="uid://bi5algk1do3po" path="res://images/Napoleon_Lockers.png" id="3_76lff"]
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="3_hrjmj"]
+[ext_resource type="Texture2D" uid="uid://dounln3l35d26" path="res://addons/mpf-gmc/images/logo_mpf.png" id="4_rw1hu"]
 
 [node name="Attract" type="Control"]
 layout_mode = 3
@@ -13,13 +17,79 @@ offset_right = 1280.0
 offset_bottom = 1024.0
 color = Color(1, 0.803922, 0.384314, 1)
 
-[node name="Label" type="Label" parent="ColorRect"]
+[node name="MPFCarousel" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("2_qes38")
+carousel_name = "attract"
+
+[node name="title" type="Sprite2D" parent="MPFCarousel"]
+visible = false
+position = Vector2(646, 514)
+texture = ExtResource("3_76lff")
+
+[node name="mpf_logo" type="Sprite2D" parent="MPFCarousel"]
+visible = false
+position = Vector2(632, 524)
+texture = ExtResource("4_rw1hu")
+
+[node name="credits" type="Label" parent="MPFCarousel"]
+visible = false
 layout_mode = 0
-offset_left = 110.0
-offset_top = 322.0
-offset_right = 1189.0
-offset_bottom = 729.0
+offset_right = 1270.0
+offset_bottom = 1017.0
 theme_override_font_sizes/font_size = 80
-text = "Napoleon Dynamite"
+text = "CREDITS SAMPE"
 horizontal_alignment = 1
 vertical_alignment = 1
+script = ExtResource("3_hrjmj")
+variable_type = 2
+variable_name = "credits_string"
+
+[node name="last_scores_1p" type="Node2D" parent="MPFCarousel"]
+visible = false
+
+[node name="player1_score" type="Label" parent="MPFCarousel/last_scores_1p"]
+visible = false
+offset_right = 1285.0
+offset_bottom = 1027.0
+theme_override_font_sizes/font_size = 80
+text = "123568"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_hrjmj")
+variable_type = 2
+variable_name = "player1_score"
+comma_separate = true
+min_digits = 2
+
+[node name="last_scores_2p" type="Node2D" parent="MPFCarousel"]
+
+[node name="player1_score" type="Label" parent="MPFCarousel/last_scores_2p"]
+offset_top = 9.0
+offset_right = 1285.0
+offset_bottom = 295.0
+theme_override_font_sizes/font_size = 80
+text = "123568"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_hrjmj")
+variable_type = 2
+variable_name = "player1_score"
+comma_separate = true
+min_digits = 2
+
+[node name="player2_score" type="Label" parent="MPFCarousel/last_scores_2p"]
+offset_top = 647.0
+offset_right = 1285.0
+offset_bottom = 1027.0
+theme_override_font_sizes/font_size = 80
+text = "123568"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_hrjmj")
+variable_type = 2
+variable_name = "player2_score"
+comma_separate = true
+min_digits = 2

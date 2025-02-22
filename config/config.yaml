@@ -80,4 +80,3 @@ flippers:
     repulse_on_eos_open: true
     eos_active_ms_before_repulse: 500
     
-

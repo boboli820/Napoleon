@@ -23,8 +23,8 @@ coils:
   c_sling_right: 
     number: 3208-7
     default_pulse_ms: 15
-  c_trough_eject:
-    number: 
+  #c_trough_eject:
+  #  number: 
   c_plunger:
     number: 3208-0
     default_pulse_ms: 20

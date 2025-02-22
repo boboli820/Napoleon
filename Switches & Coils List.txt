@@ -1,13 +1,13 @@
 Switches
 S0=Plunge_Lane
 S1=Flipper_Right_EOS
-S2=Outlane_1_Right
-S3=Outlane_2_Right
-S4=Outlane_3_Right
+S2=Outlane_Right
+S3=Inlane_Right
+S4=Inlane_2_Right
 S5=Flipper_Left_EOS
 S6=Sling_Left
-S7=Outlane_1_Left
-S8=Outlane_2_Left
+S7=Outlane_Left
+S8=inlane_1_Left
 S9=Sling_Right
 S24=Flipper_Right_Button
 S25=Start_Button
@@ -16,7 +16,7 @@ S27=Flipper_Left_Button
 
 
 Coils
-C0=Plunge_Auto
+C0=Plunger
 C1=Trough_Eject
 C3=Flipper_Left_Main
 C2=Flipper_Left_Hold

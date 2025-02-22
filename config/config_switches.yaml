@@ -12,16 +12,32 @@ switches:
     tags: right_flipper
   s_flipper_right_eos:
     number: 3208-1
+  s_inlane_1_right: #check this - not sure which switch it's for
+    number: 3208-3
+    tags: playfield_active
+  s_inlane_2_right: #check this - not sure which switch it's for
+    number: 3208-4
+    tags: playfield_active
+ s_inlane_left: #check this - not sure which switch it's for
+    number: 3208-8
+    tags: playfield_active
+  s_launch_button:
+    number: 3208-26
+  s_plunger_lane:
+    number: 3208-0
   s_sling_left:
     number: 3208-6
   s_sling_right:
     number: 3208-9
-  s_plunger_lane:
-    number: 3208-0
-  s_launch_button:
-    number: 3208-26
   s_start_button:
     number: 3208-25
+    tags: start
+  s_outlane_right: #check this - not sure which switch it's for
+    number: 3208-2
+    tags: playfield_active
+  s_outlane_left: #check this - not sure which switch it's for
+    number: 3208-7
+    tags: playfield_active
   #Trough Switches
 #  s_trough_1:
 #    number:

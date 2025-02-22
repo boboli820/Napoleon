@@ -47,7 +47,7 @@ fast:
     
 playfields:
   playfield:
-    default_source_device: bd_trough # this is the default location ball device
+    default_source_device: bd_plunger #bd_trough # this is the default location ball device
     tags: default
 
 autofire_coils:
@@ -63,7 +63,7 @@ flippers:
     main_coil: c_flipper_left_main
     hold_coil: c_flipper_left_hold
     activation_switch: s_flipper_left
-    enable_events: machine_reset_phase_3
+    #enable_events: machine_reset_phase_3
     #enable_events: machine_reset_phase_3 allows flipper coils to work during attract
     eos_switch: s_flipper_left_eos
     use_eos: true
@@ -73,7 +73,7 @@ flippers:
     main_coil: c_flipper_right_main
     hold_coil: c_flipper_right_hold
     activation_switch: s_flipper_right
-    enable_events: machine_reset_phase_3
+    #enable_events: machine_reset_phase_3
     #enable_events: machine_reset_phase_3 allows flipper coils to work during attract
     eos_switch: s_flipper_right_eos
     use_eos: true

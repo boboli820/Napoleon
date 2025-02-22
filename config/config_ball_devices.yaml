@@ -6,11 +6,11 @@ ball_devices:
     mechanical_eject: true
     eject_coil: c_plunger
     player_controlled_eject_event: s_launch_button_active
-  bd_trough:
-    ball_switches: s_trough_1, s_trough_2, s_trough_3, s_trough_4, s_trough_5, s_trough_6, s_trough_jam
-    eject_coil: c_trough_eject #this is how the ball gets out of the trough
-    eject_targets: bd_plunger #when ball is ejected from trough it goes to plunger before playfield
-    tags: trough, home, drain
+#  bd_trough:
+#    ball_switches: s_trough_1, s_trough_2, s_trough_3, s_trough_4, s_trough_5, s_trough_6, s_trough_jam
+#    eject_coil: c_trough_eject #this is how the ball gets out of the trough
+#    eject_targets: bd_plunger #when ball is ejected from trough it goes to plunger before playfield
+#    tags: trough, home, drain
     #trough is default place where balls live. Could also be lock, newton ball
     #home is ok place where balls can be when ball starts
     #drain means that when a ball comes here it has drained from play

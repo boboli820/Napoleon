@@ -20,18 +20,20 @@ switches:
     number: 3208-0
   s_launch_button:
     number: 3208-26
+  s_start_button:
+    number: 3208-25
   #Trough Switches
-  s_trough_1:
-    number:
-  s_trough_2:
-    number:
-  s_trough_3:
-    number:
-  s_trough_4:
-    number:
-  s_trough_5:
-    number:
-  s_trough_6:
-    number:
-  s_trough_jam:
-    number:
+#  s_trough_1:
+#    number:
+#  s_trough_2:
+#    number:
+#  s_trough_3:
+#    number:
+#  s_trough_4:
+#    number:
+#  s_trough_5:
+#    number:
+#  s_trough_6:
+#    number:
+#  s_trough_jam:
+#    number:

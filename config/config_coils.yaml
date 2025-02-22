@@ -3,7 +3,7 @@
 coils:
   c_flipper_left_main:
     number: 3208-3
-    allow_enable: true
+    #allow_enable: true
     #allow_enable: true is added to enable fips during attract 
   c_flipper_left_hold:
     number: 3208-2
@@ -11,7 +11,7 @@ coils:
     #allow_enable: true is added to enable fips during attract 
   c_flipper_right_main:
     number: 3208-5
-    allow_enable: true
+    #allow_enable: true
     #allow_enable: true is added to enable fips during attract 
   c_flipper_right_hold:
     number: 3208-4

@@ -58,6 +58,49 @@ playfields:
     default_source_device: bd_plunger #bd_trough # this is the default location ball device
     tags: default
 
+#added from Demolition Man demo    
+game:
+  balls_per_game: 3
+  max_players: 4
+
+#added from Demolition Man demo
+machine:
+  balls_installed: 1
+  min_balls: 1
+
+#added from Demolition Man demo    
+widget_styles:
+  text_default:
+    font_name: COOPBL
+    font_size: 60
+    adjust_top: 2
+    adjust_bottom: 3
+  space_title_huge:
+    font_name: COOPBL
+    font_size: 80
+    antialias: true
+    adjust_top: 3
+    adjust_bottom: 3
+  space_title:
+    font_name: COOPBL
+    font_size: 70
+    antialias: true
+    adjust_top: 2
+    adjust_bottom: 3
+#  medium:
+#    font_name: pixelmix
+#    font_size: 8
+#    adjust_top: 1
+#    adjust_bottom: 1
+#  small:
+#    font_name: smallest_pixel-7
+#    font_size: 9
+#    adjust_top: 2
+#    adjust_bottom: 3
+#  tall_title:
+#    font_name: big_noodle_titling
+#    font_size: 20
+
 autofire_coils:
   ac_slingshot_left:
     coil: c_sling_left

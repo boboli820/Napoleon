@@ -10,3 +10,8 @@ mode:
 
 slide_player:
   mode_base_started: base
+
+sound_player:
+  mode_base_started:
+    Napoleon_plunge_the_ball:
+      bus: voice

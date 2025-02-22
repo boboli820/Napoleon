@@ -1,4 +1,6 @@
-[gd_resource type="Theme" load_steps=6 format=3 uid="uid://ergwdj4cg7t1"]
+[gd_resource type="Theme" load_steps=7 format=3 uid="uid://ergwdj4cg7t1"]
+
+[ext_resource type="FontFile" uid="uid://bbv6hb7eswj4a" path="res://fonts/COOPBL.TTF" id="1_yf50m"]
 
 [sub_resource type="FontVariation" id="FontVariation_chif8"]
 spacing_top = 16
@@ -19,7 +21,8 @@ bg_color = Color(0.980392, 0.380392, 0, 1)
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ftyfi"]
 
 [resource]
-default_font_size = 28
+default_font = ExtResource("1_yf50m")
+default_font_size = 80
 Button/colors/font_pressed_color = Color(1, 1, 1, 1)
 Button/fonts/font = SubResource("FontVariation_chif8")
 Button/styles/normal = SubResource("StyleBoxEmpty_cxbwg")

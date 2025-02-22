@@ -6,13 +6,13 @@
 mode_settings:
   selectable_items:
     - title
-    - credits
+    - credits #will show FREE PLAY
     - last_scores_1p{machine.player1_score and not machine.player2_score}
     - last_scores_2p{machine.player2_score and not machine.player3_score}
     - last_scores_3p{machine.player3_score and not machine.player4_score}
     - last_scores_4p{machine.player4_score}
     - mpf_logo
-  next_item_events: s_flipper_right_active, timer_attract_carousel_timer_complete
+  next_item_events: s_flipper_right_active, timer_attract_carousel_timer_complete #the slide will advance right when flipper right is pressed or attract_carousel_timer tick interval reached
   previous_item_events: s_flipper_left_active
 
 slide_player:
@@ -22,6 +22,8 @@ sound_player:
   mode_attract_started:
     bus_rider:
       bus: music
+    Napoleon_Plunge_the_Ball:
+      bus: voice
       
 timers:
   attract_carousel_timer:

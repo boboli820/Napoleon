@@ -1,0 +1,217 @@
+2025-02-22 10:50:45,673 : INFO : root : Loading config.
+2025-02-22 10:50:45,674 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-02-22 10:50:45,674 : INFO : ConfigProcessor : Loading config from cache: /var/folders/np/pd6clpgx1xs_0sdwz71m1gyh0000gn/T/0e92bbbc1117f2a7fed5bfc9fd49c3ff.mpf_cache
+2025-02-22 10:50:45,674 : WARNING : ConfigProcessor : Config file in cache changed: /Users/andre/Napoleon/config/config_switches.yaml
+2025-02-22 10:50:45,675 : INFO : ConfigProcessor : Loading config from file /Users/andre/mpf/lib/python3.11/site-packages/mpf/mpfconfig.yaml.
+2025-02-22 10:50:45,679 : INFO : ConfigProcessor : Loading config: /Users/andre/mpf/lib/python3.11/site-packages/mpf/mpfconfig.yaml
+2025-02-22 10:50:45,679 : INFO : ConfigProcessor : Loading config from file /Users/andre/Napoleon/config/config.yaml.
+2025-02-22 10:50:45,680 : INFO : ConfigProcessor : Loading config: /Users/andre/Napoleon/config/config.yaml
+2025-02-22 10:50:45,681 : INFO : ConfigProcessor : Loading config: /Users/andre/Napoleon/config/config_ball_devices.yaml
+2025-02-22 10:50:45,681 : INFO : ConfigProcessor : Loading config: /Users/andre/Napoleon/config/config_coils.yaml
+2025-02-22 10:50:45,682 : INFO : ConfigProcessor : Loading config: /Users/andre/Napoleon/config/config_switches.yaml
+2025-02-22 10:50:45,683 : INFO : ConfigProcessor : Config file cache created: /var/folders/np/pd6clpgx1xs_0sdwz71m1gyh0000gn/T/0e92bbbc1117f2a7fed5bfc9fd49c3ff.mpf_cache
+2025-02-22 10:50:45,708 : INFO : ConfigProcessor : Loading config from cache: /var/folders/np/pd6clpgx1xs_0sdwz71m1gyh0000gn/T/1a4610a235e3724f4c88b7b6a3726c72.mpf_cache
+2025-02-22 10:50:45,709 : INFO : ConfigProcessor : Loading config from cache: /var/folders/np/pd6clpgx1xs_0sdwz71m1gyh0000gn/T/9ede27cf5d2808a997283e6386622428.mpf_cache
+2025-02-22 10:50:45,709 : INFO : ConfigProcessor : Loading config from cache: /var/folders/np/pd6clpgx1xs_0sdwz71m1gyh0000gn/T/1a4610a235e3724f4c88b7b6a3726c72.mpf_cache
+2025-02-22 10:50:45,709 : INFO : ConfigProcessor : Loading config from cache: /var/folders/np/pd6clpgx1xs_0sdwz71m1gyh0000gn/T/911d1b37f4ad2186d44e0f02a423c49c.mpf_cache
+2025-02-22 10:50:45,709 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev6
+2025-02-22 10:50:45,709 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-02-22-10-50-45-mpf-Mac.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': '/Users/andre/Napoleon/logs/2025-02-22-10-50-45-mpf-Mac.log'}
+2025-02-22 10:50:45,709 : INFO : Machine : MPF path: /Users/andre/mpf/lib/python3.11/site-packages/mpf
+2025-02-22 10:50:45,709 : INFO : Machine : Machine path: /Users/andre/Napoleon
+2025-02-22 10:50:45,709 : INFO : Machine : Platform: darwin
+2025-02-22 10:50:45,709 : INFO : Machine : Python executable location: /Users/andre/mpf/bin/python3.11
+2025-02-22 10:50:45,709 : INFO : Machine : Python version: 3.11.8 (64-bit)
+2025-02-22 10:50:45,710 : INFO : Machine : Initializing MPF...
+2025-02-22 10:50:45,845 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-02-22 10:50:45,849 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-02-22 10:50:45,849 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev6', 'prev_value': None, 'change': True}
+2025-02-22 10:50:45,849 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev6, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-02-22 10:50:45,849 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.8', 'prev_value': None, 'change': True}
+2025-02-22 10:50:45,861 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-15.3.1-arm64-arm-64bit', 'prev_value': None, 'change': True}
+2025-02-22 10:50:45,861 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2025-02-22 10:50:45,861 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '24.3.0', 'prev_value': None, 'change': True}
+2025-02-22 10:50:45,861 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 24.3.0: Thu Jan  2 20:24:23 PST 2025; root:xnu-11215.81.4~3/RELEASE_ARM64_T6020', 'prev_value': None, 'change': True}
+2025-02-22 10:50:45,861 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2025-02-22 10:50:45,861 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/andre/Napoleon/logs/2025-02-22-10-50-45-mpf-Mac.log', 'prev_value': None, 'change': True}
+2025-02-22 10:50:45,861 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-02-22 10:50:45,868 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-02-22 10:50:45,869 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2025-02-22 10:50:45,870 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2025-02-22 10:50:45,874 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2025-02-22 10:50:45,874 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2025-02-22 10:50:45,874 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2025-02-22 10:50:45,874 : INFO : ball_device.bd_plunger : State: idle
+2025-02-22 10:50:45,876 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-02-22 10:50:45,877 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-02-22 10:50:45,877 : INFO : BallController : Initial balls found: 0
+2025-02-22 10:50:45,877 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start_button'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-02-22 10:50:45,877 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch_button'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-02-22 10:50:45,878 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlane_1_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-02-22 10:50:45,878 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlane_2_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-02-22 10:50:45,878 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outlane_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-02-22 10:50:45,878 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-02-22 10:50:45,878 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-02-22 10:50:45,878 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outlane_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-02-22 10:50:45,878 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-02-22 10:50:45,878 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-02-22 10:50:45,878 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlane_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-02-22 10:50:45,878 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-02-22 10:50:45,878 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right_eos'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-02-22 10:50:45,878 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left_eos'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-02-22 10:50:45,878 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-02-22 10:50:45,878 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-02-22 10:50:45,878 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2025-02-22 10:50:45,878 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-02-22 10:50:45,878 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-02-22 10:50:45,878 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-02-22 10:50:45,885 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-02-22 10:50:45,886 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-02-22 10:50:45,886 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-02-22 10:50:45,886 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2025-02-22 10:50:45,886 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2025-02-22 10:50:45,886 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-02-22 10:50:45,886 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-02-22 10:50:45,886 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2025-02-22 10:50:45,886 : INFO : Mode.attract : Started. Priority: 10
+2025-02-22 10:50:45,886 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-02-22 10:50:45,886 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2025-02-22 10:50:45,887 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2025-02-22 10:50:45,887 : INFO : EventManager : Event: ======'item_highlighted'====== Args={'carousel': 'attract', 'direction': None, 'item': 'title'}
+2025-02-22 10:50:45,887 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-02-22 10:50:45,887 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2025-02-22 10:50:45,946 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-02-22 10:50:45,946 : INFO : EventManager : Event: ======'slide__removed'====== Args={'_from_bcp': True}
+2025-02-22 10:50:45,947 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'original_context': 'attract', 'original_calling_context': 'mode_attract_started', 'priority': 10.0, 'cmd': 'slides_play', '_from_bcp': True}
+2025-02-22 10:50:48,647 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2025-02-22 10:50:48,648 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2025-02-22 10:50:48,648 : INFO : EventManager : Event: ======'item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2025-02-22 10:50:48,649 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-02-22 10:50:48,725 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2025-02-22 10:50:49,635 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2025-02-22 10:50:49,635 : INFO : EventManager : Event: ======'s_flipper_left_active'====== Args={}
+2025-02-22 10:50:49,635 : INFO : EventManager : Event: ======'item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'title'}
+2025-02-22 10:50:49,636 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-02-22 10:50:49,792 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2025-02-22 10:50:50,151 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2025-02-22 10:50:50,151 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2025-02-22 10:50:50,152 : INFO : EventManager : Event: ======'item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2025-02-22 10:50:50,152 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-02-22 10:50:50,243 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2025-02-22 10:50:51,725 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-02-22 10:50:51,867 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-02-22 10:50:51,868 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2025-02-22 10:50:51,869 : INFO : BallController : Known balls: 0
+2025-02-22 10:50:51,869 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2025-02-22 10:50:51,869 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2025-02-22 10:50:51,869 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2025-02-22 10:50:51,869 : INFO : BallController : Triggering ball search.
+2025-02-22 10:50:53,453 : INFO : SwitchController : <<<<<<< 's_inlane_1_right' active >>>>>>>
+2025-02-22 10:50:53,453 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-02-22 10:50:53,454 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-02-22 10:50:53,454 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-02-22 10:50:53,601 : INFO : SwitchController : <<<<<<< 's_inlane_1_right' inactive >>>>>>>
+2025-02-22 10:50:54,109 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-02-22 10:50:54,251 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-02-22 10:50:54,251 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2025-02-22 10:50:54,251 : INFO : BallController : Known balls: 0
+2025-02-22 10:50:54,252 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2025-02-22 10:50:54,252 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2025-02-22 10:50:54,252 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2025-02-22 10:50:54,252 : INFO : BallController : Triggering ball search.
+2025-02-22 10:50:55,153 : INFO : Timer.attract_carousel_timer : Timer Complete
+2025-02-22 10:50:55,154 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2025-02-22 10:50:55,154 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2025-02-22 10:50:55,154 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2025-02-22 10:50:55,154 : INFO : EventManager : Event: ======'item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'mpf_logo'}
+2025-02-22 10:50:55,155 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2025-02-22 10:50:55,155 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-02-22 10:50:55,155 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-02-22 10:51:00,156 : INFO : Timer.attract_carousel_timer : Timer Complete
+2025-02-22 10:51:00,156 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2025-02-22 10:51:00,157 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2025-02-22 10:51:00,157 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2025-02-22 10:51:00,157 : INFO : EventManager : Event: ======'item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2025-02-22 10:51:00,158 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2025-02-22 10:51:00,159 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-02-22 10:51:00,159 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-02-22 10:51:04,980 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-02-22 10:51:05,110 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-02-22 10:51:05,110 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2025-02-22 10:51:05,111 : INFO : BallController : Known balls: 0
+2025-02-22 10:51:05,111 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2025-02-22 10:51:05,111 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2025-02-22 10:51:05,111 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2025-02-22 10:51:05,111 : INFO : BallController : Triggering ball search.
+2025-02-22 10:51:05,160 : INFO : Timer.attract_carousel_timer : Timer Complete
+2025-02-22 10:51:05,160 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2025-02-22 10:51:05,160 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2025-02-22 10:51:05,160 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2025-02-22 10:51:05,160 : INFO : EventManager : Event: ======'item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2025-02-22 10:51:05,161 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2025-02-22 10:51:05,161 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-02-22 10:51:05,161 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-02-22 10:51:05,827 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-02-22 10:51:05,976 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-02-22 10:51:05,976 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2025-02-22 10:51:05,977 : INFO : BallController : Known balls: 0
+2025-02-22 10:51:05,977 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2025-02-22 10:51:05,977 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2025-02-22 10:51:05,977 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2025-02-22 10:51:05,977 : INFO : BallController : Triggering ball search.
+2025-02-22 10:51:06,377 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-02-22 10:51:06,534 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-02-22 10:51:06,535 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2025-02-22 10:51:06,535 : INFO : BallController : Known balls: 0
+2025-02-22 10:51:06,535 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2025-02-22 10:51:06,535 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2025-02-22 10:51:06,535 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2025-02-22 10:51:06,535 : INFO : BallController : Triggering ball search.
+2025-02-22 10:51:07,885 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2025-02-22 10:51:07,885 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2025-02-22 10:51:07,886 : INFO : EventManager : Event: ======'item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'mpf_logo'}
+2025-02-22 10:51:07,886 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-02-22 10:51:08,001 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2025-02-22 10:51:08,402 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2025-02-22 10:51:08,402 : INFO : EventManager : Event: ======'s_flipper_left_active'====== Args={}
+2025-02-22 10:51:08,402 : INFO : EventManager : Event: ======'item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'credits'}
+2025-02-22 10:51:08,403 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-02-22 10:51:08,478 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2025-02-22 10:51:08,493 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2025-02-22 10:51:08,493 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2025-02-22 10:51:08,493 : INFO : EventManager : Event: ======'item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'mpf_logo'}
+2025-02-22 10:51:08,494 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-02-22 10:51:08,627 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2025-02-22 10:51:08,835 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2025-02-22 10:51:08,836 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2025-02-22 10:51:08,836 : INFO : EventManager : Event: ======'item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2025-02-22 10:51:08,837 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-02-22 10:51:08,952 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2025-02-22 10:51:09,243 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2025-02-22 10:51:09,244 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2025-02-22 10:51:09,244 : INFO : EventManager : Event: ======'item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2025-02-22 10:51:09,245 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-02-22 10:51:09,354 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2025-02-22 10:51:09,735 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2025-02-22 10:51:09,735 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2025-02-22 10:51:09,736 : INFO : EventManager : Event: ======'item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'mpf_logo'}
+2025-02-22 10:51:09,736 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-02-22 10:51:09,852 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2025-02-22 10:51:10,171 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-02-22 10:51:10,318 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-02-22 10:51:10,318 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2025-02-22 10:51:10,319 : INFO : BallController : Known balls: 0
+2025-02-22 10:51:10,319 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2025-02-22 10:51:10,319 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2025-02-22 10:51:10,319 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2025-02-22 10:51:10,319 : INFO : BallController : Triggering ball search.
+2025-02-22 10:51:10,968 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-02-22 10:51:11,093 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-02-22 10:51:11,093 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2025-02-22 10:51:11,094 : INFO : BallController : Known balls: 0
+2025-02-22 10:51:11,094 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2025-02-22 10:51:11,094 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2025-02-22 10:51:11,094 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2025-02-22 10:51:11,094 : INFO : BallController : Triggering ball search.
+2025-02-22 10:51:12,639 : INFO : Machine : Shutting down...
+2025-02-22 10:51:12,640 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-02-22 10:51:12,641 : INFO : root : MPF run loop ended.

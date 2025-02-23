@@ -4,27 +4,34 @@ coils:
   c_flipper_left_main:
     number: 3208-3
     #default_pulse_ms: 20 #add this line to adjust flipper strength
+
   c_flipper_left_hold:
     number: 3208-2
     # default_hold_power: #set from 0.125 - 1.0 = 100% power
     #no pulse time for flipper hold coils - they don't pulse
     allow_enable: true #for flippers, the "hold" coil needs to have allow_enable: true to allow that coil to be held on.
+
   c_flipper_right_main:
     number: 3208-5
     #default_pulse_ms: 20 #add this line to adjust flipper strength
+
   c_flipper_right_hold:
     number: 3208-4
     # default_hold_power: #set from 0.125 - 1.0 = 100% power
     #no pulse time for flipper hold coils - they don't pulse
     allow_enable: true #for flippers, the "hold" coil needs to have allow_enable: true to allow that coil to be held on.
+
   c_sling_left:
     number: 3208-6 
     default_pulse_ms: 15
+
   c_sling_right: 
     number: 3208-7
     default_pulse_ms: 15
+
   #c_trough_eject:
   #  number: 
+
   c_plunger:
     number: 3208-0
     default_pulse_ms: 10 #pulse time = how long full power is held

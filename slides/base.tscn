@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://cqkth5vyvhu0n"]
+[gd_scene load_steps=3 format=3 uid="uid://cqkth5vyvhu0n"]
 
 [ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="1_jnbf7"]
+[ext_resource type="Theme" uid="uid://ra1bs3xbb65k" path="res://NapTextThemeCoopBl.tres" id="1_q0a3y"]
 
 [node name="Base" type="Node"]
 
@@ -13,8 +14,7 @@ layout_mode = 0
 offset_top = 864.0
 offset_right = 395.0
 offset_bottom = 1001.0
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 80
+theme = ExtResource("1_q0a3y")
 text = "PLAYER 1"
 
 [node name="current_player_score" type="Node2D" parent="ColorRect"]
@@ -23,8 +23,7 @@ position = Vector2(594, 800)
 [node name="current_player_score" type="Label" parent="ColorRect/current_player_score"]
 offset_right = 678.0
 offset_bottom = 225.0
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 80
+theme = ExtResource("1_q0a3y")
 text = "7651212"
 horizontal_alignment = 2
 vertical_alignment = 1

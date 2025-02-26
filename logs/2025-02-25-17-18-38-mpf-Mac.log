@@ -1,0 +1,69 @@
+2025-02-25 17:18:38,389 : INFO : root : Loading config.
+2025-02-25 17:18:38,391 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-02-25 17:18:38,391 : WARNING : ConfigProcessor : Config file in cache changed: /Users/andre/Napoleon/config/config.yaml
+2025-02-25 17:18:38,391 : INFO : ConfigProcessor : Loading config from file /Users/andre/mpf/lib/python3.11/site-packages/mpf/mpfconfig.yaml.
+2025-02-25 17:18:38,397 : INFO : ConfigProcessor : Loading config: /Users/andre/mpf/lib/python3.11/site-packages/mpf/mpfconfig.yaml
+2025-02-25 17:18:38,397 : INFO : ConfigProcessor : Loading config from file /Users/andre/Napoleon/config/config.yaml.
+2025-02-25 17:18:38,398 : INFO : ConfigProcessor : Loading config: /Users/andre/Napoleon/config/config.yaml
+2025-02-25 17:18:38,398 : INFO : ConfigProcessor : Loading config: /Users/andre/Napoleon/config/config_ball_devices.yaml
+2025-02-25 17:18:38,399 : INFO : ConfigProcessor : Loading config: /Users/andre/Napoleon/config/config_coils.yaml
+2025-02-25 17:18:38,399 : INFO : ConfigProcessor : Loading config: /Users/andre/Napoleon/config/config_switches.yaml
+2025-02-25 17:18:38,400 : INFO : ConfigProcessor : Config file cache created: /var/folders/np/pd6clpgx1xs_0sdwz71m1gyh0000gn/T/0e92bbbc1117f2a7fed5bfc9fd49c3ff.mpf_cache
+2025-02-25 17:18:38,431 : INFO : ConfigProcessor : Loading config from cache: /var/folders/np/pd6clpgx1xs_0sdwz71m1gyh0000gn/T/1a4610a235e3724f4c88b7b6a3726c72.mpf_cache
+2025-02-25 17:18:38,431 : INFO : ConfigProcessor : Loading config from cache: /var/folders/np/pd6clpgx1xs_0sdwz71m1gyh0000gn/T/9ede27cf5d2808a997283e6386622428.mpf_cache
+2025-02-25 17:18:38,431 : INFO : ConfigProcessor : Loading config from cache: /var/folders/np/pd6clpgx1xs_0sdwz71m1gyh0000gn/T/1a4610a235e3724f4c88b7b6a3726c72.mpf_cache
+2025-02-25 17:18:38,432 : INFO : ConfigProcessor : Loading config from cache: /var/folders/np/pd6clpgx1xs_0sdwz71m1gyh0000gn/T/911d1b37f4ad2186d44e0f02a423c49c.mpf_cache
+2025-02-25 17:18:38,432 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev6
+2025-02-25 17:18:38,432 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-02-25-17-18-38-mpf-Mac.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'smart_virtual', 'syslog_address': None, 'full_logfile_path': '/Users/andre/Napoleon/logs/2025-02-25-17-18-38-mpf-Mac.log'}
+2025-02-25 17:18:38,432 : INFO : Machine : MPF path: /Users/andre/mpf/lib/python3.11/site-packages/mpf
+2025-02-25 17:18:38,432 : INFO : Machine : Machine path: /Users/andre/Napoleon
+2025-02-25 17:18:38,432 : INFO : Machine : Platform: darwin
+2025-02-25 17:18:38,432 : INFO : Machine : Python executable location: /Users/andre/mpf/bin/python3.11
+2025-02-25 17:18:38,432 : INFO : Machine : Python version: 3.11.8 (64-bit)
+2025-02-25 17:18:38,432 : INFO : Machine : Initializing MPF...
+2025-02-25 17:18:38,586 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-02-25 17:18:38,591 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-02-25 17:18:38,591 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev6', 'prev_value': None, 'change': True}
+2025-02-25 17:18:38,591 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev6, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-02-25 17:18:38,592 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.8', 'prev_value': None, 'change': True}
+2025-02-25 17:18:38,602 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-15.3.1-arm64-arm-64bit', 'prev_value': None, 'change': True}
+2025-02-25 17:18:38,602 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2025-02-25 17:18:38,602 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '24.3.0', 'prev_value': None, 'change': True}
+2025-02-25 17:18:38,602 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 24.3.0: Thu Jan  2 20:24:23 PST 2025; root:xnu-11215.81.4~3/RELEASE_ARM64_T6020', 'prev_value': None, 'change': True}
+2025-02-25 17:18:38,602 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2025-02-25 17:18:38,602 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/andre/Napoleon/logs/2025-02-25-17-18-38-mpf-Mac.log', 'prev_value': None, 'change': True}
+2025-02-25 17:18:38,602 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-02-25 17:18:38,606 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...pty config.")>) at /Users/andre/mpf/lib/python3.11/site-packages/mpf/core/events.py:124
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...pty config.")>) at /Users/andre/mpf/lib/python3.11/site-packages/mpf/core/events.py:124>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/andre/mpf/lib/python3.11/site-packages/mpf/core/events.py", line 127, in _async_handler_done
+    future.result()
+  File "/Users/andre/mpf/lib/python3.11/site-packages/mpf/core/device_manager.py", line 83, in _load_device_modules
+    self.create_devices(collection_name, config)
+  File "/Users/andre/mpf/lib/python3.11/site-packages/mpf/core/device_manager.py", line 119, in create_devices
+    self.raise_config_error("Device {}:'{}' has an empty config.".format(collection_name, device_name), 2,
+  File "/Users/andre/mpf/lib/python3.11/site-packages/mpf/core/logging.py", line 175, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in DeviceManager: Device switches:'s_trough_1' has an empty config. Context: switches.s_trough_1 Error Code: CFE-DeviceManager-2 (https://missionpinball.org/logs)
+2025-02-25 17:18:38,608 : INFO : Machine : Starting the main run loop with active modes: []
+2025-02-25 17:18:38,608 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2025-02-25 17:18:38,608 : INFO : Machine : Shutting down...
+2025-02-25 17:18:38,608 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-02-25 17:18:39,610 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "/Users/andre/mpf/lib/python3.11/site-packages/mpf/core/machine.py", line 808, in _run_loop
+    raise self._exception['exception']
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/andre/mpf/lib/python3.11/site-packages/mpf/core/events.py", line 127, in _async_handler_done
+    future.result()
+  File "/Users/andre/mpf/lib/python3.11/site-packages/mpf/core/device_manager.py", line 83, in _load_device_modules
+    self.create_devices(collection_name, config)
+  File "/Users/andre/mpf/lib/python3.11/site-packages/mpf/core/device_manager.py", line 119, in create_devices
+    self.raise_config_error("Device {}:'{}' has an empty config.".format(collection_name, device_name), 2,
+  File "/Users/andre/mpf/lib/python3.11/site-packages/mpf/core/logging.py", line 175, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in DeviceManager: Device switches:'s_trough_1' has an empty config. Context: switches.s_trough_1 Error Code: CFE-DeviceManager-2 (https://missionpinball.org/logs)
+2025-02-25 17:18:39,614 : INFO : root : MPF run loop ended.

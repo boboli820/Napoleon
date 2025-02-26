@@ -1,0 +1,44 @@
+2025-02-25 17:41:42,006 : INFO : root : Loading config.
+2025-02-25 17:41:42,007 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-02-25 17:41:42,007 : INFO : ConfigProcessor : Loading config from cache: /var/folders/np/pd6clpgx1xs_0sdwz71m1gyh0000gn/T/0e92bbbc1117f2a7fed5bfc9fd49c3ff.mpf_cache
+2025-02-25 17:41:42,035 : INFO : ConfigProcessor : Loading config from cache: /var/folders/np/pd6clpgx1xs_0sdwz71m1gyh0000gn/T/1a4610a235e3724f4c88b7b6a3726c72.mpf_cache
+2025-02-25 17:41:42,035 : INFO : ConfigProcessor : Loading config from cache: /var/folders/np/pd6clpgx1xs_0sdwz71m1gyh0000gn/T/9ede27cf5d2808a997283e6386622428.mpf_cache
+2025-02-25 17:41:42,035 : INFO : ConfigProcessor : Loading config from cache: /var/folders/np/pd6clpgx1xs_0sdwz71m1gyh0000gn/T/1a4610a235e3724f4c88b7b6a3726c72.mpf_cache
+2025-02-25 17:41:42,035 : INFO : ConfigProcessor : Loading config from cache: /var/folders/np/pd6clpgx1xs_0sdwz71m1gyh0000gn/T/911d1b37f4ad2186d44e0f02a423c49c.mpf_cache
+2025-02-25 17:41:42,036 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev6
+2025-02-25 17:41:42,036 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-02-25-17-41-42-mpf-Mac.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': '/Users/andre/Napoleon/logs/2025-02-25-17-41-42-mpf-Mac.log'}
+2025-02-25 17:41:42,036 : INFO : Machine : MPF path: /Users/andre/mpf/lib/python3.11/site-packages/mpf
+2025-02-25 17:41:42,036 : INFO : Machine : Machine path: /Users/andre/Napoleon
+2025-02-25 17:41:42,036 : INFO : Machine : Platform: darwin
+2025-02-25 17:41:42,036 : INFO : Machine : Python executable location: /Users/andre/mpf/bin/python3.11
+2025-02-25 17:41:42,036 : INFO : Machine : Python version: 3.11.8 (64-bit)
+2025-02-25 17:41:42,036 : INFO : Machine : Initializing MPF...
+2025-02-25 17:41:42,110 : INFO : FAST : Auto-detecting ports for the following connections: ['net', 'exp']
+2025-02-25 17:41:42,213 : ERROR : FAST [NET] : Failed to connect to any of the specified ports.
+2025-02-25 17:41:42,213 : INFO : Machine : Shutting down...
+2025-02-25 17:41:42,213 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-02-25 17:41:42,315 : ERROR : Machine : Failed to initialize MPF
+Traceback (most recent call last):
+  File "/Users/andre/mpf/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 277, in _connect_to_hardware
+    await communicator.connect()
+  File "/Users/andre/mpf/lib/python3.11/site-packages/mpf/platforms/fast/communicators/base.py", line 114, in connect
+    raise SerialException(f"{self} could not connect to a serial port. Is it open in CoolTerm? ;)")
+serial.serialutil.SerialException: [FAST NET] could not connect to a serial port. Is it open in CoolTerm? ;)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/andre/mpf/lib/python3.11/site-packages/mpf/core/machine.py", line 686, in initialize_mpf
+    raise init.exception()
+  File "/Users/andre/mpf/lib/python3.11/site-packages/mpf/core/machine.py", line 248, in initialize
+    await self.initialize_core_and_hardware()
+  File "/Users/andre/mpf/lib/python3.11/site-packages/mpf/core/machine.py", line 244, in initialize_core_and_hardware
+    await self._initialize_platforms()
+  File "/Users/andre/mpf/lib/python3.11/site-packages/mpf/core/machine.py", line 334, in _initialize_platforms
+    result.result()
+  File "/Users/andre/mpf/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 123, in initialize
+    await self._connect_to_hardware()
+  File "/Users/andre/mpf/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 284, in _connect_to_hardware
+    raise MpfRuntimeError(f"Could not open serial port {port}. Is something else connected to the port? "
+mpf.exceptions.runtime_error.MpfRuntimeError: Runtime Error in FAST: Could not open serial port net. Is something else connected to the port? Did the port number or your computer change? Do you have permissions to access the port? Error Code: RE-FAST-1 (https://missionpinball.org/logs)
+2025-02-25 17:41:42,317 : INFO : root : MPF run loop ended.

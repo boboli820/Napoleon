@@ -6,28 +6,60 @@
 #Make sure you have the #config_version=6 as the first line in your file.
 #https://missionpinball.org/latest/troubleshooting/debugging_yaml_parse_errors/
 
-#mpf -x or -X is for running without physical hardware
+#mpf launch commands
+#mpf -a (lowercase) Forces reload the config from YAML not cache.
+#mpf -A (uppercase) Do not cache the config files.
+#mpf -b Disables BCP interface  - won't connect to a media controller like Godot
+#mpf -c (lowercase) Specifies name of config file (or files) to load. 
+#mpf -C (uppercase) Specify the name of the MPF default config file which is loaded before your machine config. (MPF includes a file mpfconfig.yaml which is inside the MPF package which sets up default things like which modules are loaded, paths used, etc. If for some reason you want to override this file, you can do so with the -C option.
+#mpf -h Displays the command line help and exits. (Pretty much what's on this page.)
+#mpf -f Forces MPF to load all assets at start (rather than the default behavior where some assets can be loaded only when modes start or based on other events). This is useful during development to ensure that all assets are valid and loadable.
+#mpf -t Disable Text UI. This can be helpful while debugging and is also recommended when running the machine in production.
+#mpf -l (lowercase "L") Specifies the name and path of the log file.
+#mpf --syslog_address - Log to the specified syslog address. This can be a domain socket such as /dev/log on Linux or /var/run/syslog on Mac. Alternatively, you an specify host:port for remote logging over UDP.
+#mpf -v (lowercase) Enables verbose logging to the log file. Warning: Your log files will be huge, perhaps 1MB per minute of game time. Definitely only use this when you're troubleshooting.
+#mpf -V (uppercase) Enables verbose logging to the console output.
+#mpf -x (lowercase) Ignores all platform: settings in your config files and forces MPF to run using the virtual platform interface. This is nice for testing when you don't have your physical hardware attached.
+#mpf -X (uppercase) Like -x, except it forces the smart virtual platform.
+#mpf --vpx Like -x, except it forces the Virtual Pinball (VPX) platform.
 
-#config section imports various other config files
+
+
+###########################################config section#################################
+# imports various other config files
+##########################################################################################
+
 config:
   - config_ball_devices.yaml
   - config_coils.yaml
   - config_switches.yaml
 
-#modes section imports various Godot modes  
+############################################modes section#################################
+# imports various Godot modes  
+##########################################################################################
+
 modes:
   - attract
   - base
   
+#############################################displays section#############################
+
 #displays:
 #  window:
 #    width: 800
 #    height: 600
 
-#hardware section is for referencing FAST boards or virtual switches
+###############################################hardware section###########################
+# is for referencing FAST boards or virtual switches
+##########################################################################################
+
 hardware:
-  platform: fast
-  driverboards: fast
+#  platform: fast
+#  driverboards: fast
+  platform: smart_virtual
+
+  
+virtual_platform_start_active_switches: s_plunger_lane, s_trough_1, s_trough_2, s_trough_3, s_trough_4, s_trough_5, s_trough_6, s_trough_jam
   
 #FAST code
 fast:
@@ -60,7 +92,7 @@ fast:
 #playfields section for adding main playfield, upper playfield    
 playfields:
   playfield:
-    default_source_device: bd_plunger #usually bd_trough # this is the default location ball device
+    default_source_device: bd_trough #usually bd_trough # this is the default location ball device
     tags: default
 
 #added from Demolition Man demo    
@@ -70,7 +102,7 @@ game:
 
 #added from Demolition Man demo
 machine:
-  balls_installed: 1
+  balls_installed: 6
   min_balls: 1
 
 #added from Demolition Man demo    
@@ -120,7 +152,7 @@ flippers:
     main_coil: c_flipper_left_main
     hold_coil: c_flipper_left_hold
     activation_switch: s_flipper_left
-    #enable_events: machine_reset_phase_3 #enable_events: machine_reset_phase_3 allows flipper coils to work during attract
+    enable_events: machine_reset_phase_3 #enable_events: machine_reset_phase_3 allows flipper coils to work during attract
     eos_switch: s_flipper_left_eos
     use_eos: true
     repulse_on_eos_open: true
@@ -129,7 +161,7 @@ flippers:
     main_coil: c_flipper_right_main
     hold_coil: c_flipper_right_hold
     activation_switch: s_flipper_right
-    #enable_events: machine_reset_phase_3 #enable_events: machine_reset_phase_3 allows flipper coils to work during attract
+    enable_events: machine_reset_phase_3 #enable_events: machine_reset_phase_3 allows flipper coils to work during attract
     eos_switch: s_flipper_right_eos
     use_eos: true
     repulse_on_eos_open: true

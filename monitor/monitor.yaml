@@ -1,0 +1,34 @@
+device_size: 0.09
+flipper:
+  left_flipper:
+    x: 0.34247779949607476
+    y: 0.5889261744966443
+  right_flipper:
+    x: 0.6285032144598295
+    y: 0.5906040268456376
+switch:
+  s_flipper_left:
+    rotation: 130
+    shape: FLIPPER
+    size: 0.05
+    x: 0.3876397071219308
+    y: 0.8640939597315437
+  s_flipper_right:
+    rotation: 240
+    shape: FLIPPER
+    size: 0.06
+    x: 0.5231254299994988
+    y: 0.8523489932885907
+  s_launch_button:
+    shape: CIRCLE
+    x: 0.3612952610068481
+    y: 0.9714765100671141
+  s_outlane_left:
+    shape: RECTANGLE
+    x: 0.060215876834474685
+    y: 0.7533557046979866
+  s_outlane_right:
+    shape: RECTANGLE
+    size: 0.09
+    x: 0.8618397371934189
+    y: 0.6879194630872484

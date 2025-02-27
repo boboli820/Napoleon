@@ -34,110 +34,55 @@ config:
   - config_coils.yaml
   - config_switches.yaml
 
-############################################modes section#################################
-# imports various Godot modes  
-##########################################################################################
-
 modes:
   - attract
   - base
   
-#############################################displays section#############################
 
 #displays:
 #  window:
 #    width: 800
 #    height: 600
 
-###############################################hardware section###########################
-# is for referencing FAST boards or virtual switches
-##########################################################################################
-
 hardware:
 #  platform: fast
 #  driverboards: fast
   platform: smart_virtual
+  
 
-  
-virtual_platform_start_active_switches: s_plunger_lane, s_trough_1, s_trough_2, s_trough_3, s_trough_4, s_trough_5, s_trough_6, s_trough_jam
-  
 #FAST code
-fast:
-  net:
-    controller: neuron
-    io_loop:
-      3208:
-        model: FP-I/O-3208
-        order: 1
-    port: auto
-    baud: 921600
-    debug: false
-    watchdog: 1s
-    default_quick_debounce_open: 2ms
-    default_quick_debounce_close: 2ms
-    default_normal_debounce_open: 4ms
-    default_normal_debounce_close: 4ms
+#fast:
+#  net:
+#    controller: neuron
+#    io_loop:
+#      3208:
+#        model: FP-I/O-3208
+#        order: 1
+#    port: auto
+#    baud: 921600
+#    debug: false
+#    watchdog: 1s
+#    default_quick_debounce_open: 2ms
+#    default_quick_debounce_close: 2ms
+#    default_normal_debounce_open: 4ms
+#    default_normal_debounce_close: 4ms
   
-  exp:
-    boards:
-      neuron:
-        model: FP-EXP-2000
-        #breakouts:
-         # - port: 1
-          #  model: FP-PWR-0030
-    port: auto
-    baud: 921600
-    debug: False
+#  exp:
+#    boards:
+#      neuron:
+#        model: FP-EXP-2000
+#        #breakouts:
+#          # - port: 1
+#          #  model: FP-PWR-0030
+#    port: auto
+#    baud: 921600
+#    debug: False
 
 #playfields section for adding main playfield, upper playfield    
 playfields:
   playfield:
-    default_source_device: bd_trough #usually bd_trough # this is the default location ball device
+    default_source_device: bd_plunger #usually bd_trough # this is the default location ball device
     tags: default
-
-#added from Demolition Man demo    
-game:
-  balls_per_game: 3
-  max_players: 4
-
-#added from Demolition Man demo
-machine:
-  balls_installed: 6
-  min_balls: 1
-
-#added from Demolition Man demo    
-widget_styles:
-  text_default:
-    font_name: COOPBL
-    font_size: 60
-    adjust_top: 2
-    adjust_bottom: 3
-  space_title_huge:
-    font_name: COOPBL
-    font_size: 80
-    antialias: true
-    adjust_top: 3
-    adjust_bottom: 3
-  space_title:
-    font_name: COOPBL
-    font_size: 70
-    antialias: true
-    adjust_top: 2
-    adjust_bottom: 3
-
-#  medium:
-#    font_name: pixelmix
-#    font_size: 8
-#    adjust_top: 1
-#    adjust_bottom: 1
-#  small:
-#    font_name: smallest_pixel-7
-#    font_size: 9
-#    adjust_top: 2
-#    adjust_bottom: 3
-#  tall_title:
-#    font_name: big_noodle_titling
-#    font_size: 20
 
 autofire_coils:
   ac_slingshot_left:

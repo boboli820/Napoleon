@@ -1,5 +1,10 @@
 #config_version=6
 
+virtual_platform_start_active_switches:
+  - s_trough_1
+  - s_trough_2
+  - s_trough_3
+
 switches:
 
 #Cabinet Switches
@@ -58,21 +63,18 @@ switches:
 
   s_trough_1:
     number:
-
   s_trough_2:
     number:
-
   s_trough_3:
     number:
-
   s_trough_4:
     number:
-
   s_trough_5:
     number:
-
   s_trough_6:
     number:
-
   s_trough_jam:
     number:
+
+
+

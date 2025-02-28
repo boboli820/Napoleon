@@ -1,10 +1,4 @@
 #config_version=6
-#yaml doesn't allow tabs - make sure to use spaces
-#Make sure that all the "child" elements are indented the same, so s_left_flipper and s_right_flipper both need to be indented the same
-#Make sure you do not have a space before each colon.
-#Make sure you do have a space after each colon.
-#Make sure you have the #config_version=6 as the first line in your file.
-#https://missionpinball.org/latest/troubleshooting/debugging_yaml_parse_errors/
 
 #mpf launch commands
 #mpf -a (lowercase) Forces reload the config from YAML not cache.
@@ -23,8 +17,6 @@
 #mpf -X (uppercase) Like -x, except it forces the smart virtual platform.
 #mpf --vpx Like -x, except it forces the Virtual Pinball (VPX) platform.
 
-
-
 ###########################################config section#################################
 # imports various other config files
 ##########################################################################################
@@ -38,7 +30,6 @@ modes:
   - attract
   - base
   
-
 #displays:
 #  window:
 #    width: 800
@@ -49,41 +40,48 @@ hardware:
 #  driverboards: fast
   platform: smart_virtual
   
-
+###########################################hardware section#################################
+# hardware requirements
+############################################################################################
 #FAST code
-#fast:
-#  net:
-#    controller: neuron
-#    io_loop:
-#      3208:
-#        model: FP-I/O-3208
-#        order: 1
-#    port: auto
-#    baud: 921600
-#    debug: false
-#    watchdog: 1s
-#    default_quick_debounce_open: 2ms
-#    default_quick_debounce_close: 2ms
-#    default_normal_debounce_open: 4ms
-#    default_normal_debounce_close: 4ms
+fast:
+  net:
+    controller: neuron
+    io_loop:
+      3208:
+        model: FP-I/O-3208
+        order: 1
+    port: auto
+    baud: 921600
+    debug: false
+    watchdog: 1s
+    default_quick_debounce_open: 2ms
+    default_quick_debounce_close: 2ms
+    default_normal_debounce_open: 4ms
+    default_normal_debounce_close: 4ms
   
-#  exp:
-#    boards:
-#      neuron:
-#        model: FP-EXP-2000
-#        #breakouts:
-#          # - port: 1
-#          #  model: FP-PWR-0030
-#    port: auto
-#    baud: 921600
-#    debug: False
-
-#playfields section for adding main playfield, upper playfield    
+  exp:
+    boards:
+      neuron:
+        model: FP-EXP-2000
+        #breakouts:
+          # - port: 1
+          #  model: FP-PWR-0030
+    port: auto
+    baud: 921600
+    debug: False
+###########################################playfields section#################################
+#playfields section for adding main playfield, upper playfield
+##########################################################################################
+    
 playfields:
   playfield:
     default_source_device: bd_plunger #usually bd_trough # this is the default location ball device
     tags: default
 
+###########################################Autofire Coils Section#################################
+#section for adding autofire coils
+################################################################################################
 autofire_coils:
   ac_slingshot_left:
     coil: c_sling_left
@@ -91,7 +89,10 @@ autofire_coils:
   ac_slingshot_right:
     coil: c_sling_right
     switch: s_sling_right
-    
+
+###########################################Flippers Section#####################################
+#section for adding flippers
+################################################################################################    
 flippers:
   left_flipper:
     main_coil: c_flipper_left_main

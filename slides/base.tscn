@@ -9,6 +9,15 @@
 offset_right = 1280.0
 offset_bottom = 1024.0
 
+[node name="Label" type="Label" parent="ColorRect"]
+layout_mode = 0
+offset_right = 1275.0
+offset_bottom = 453.0
+theme = ExtResource("1_q0a3y")
+text = "This is the Base Scene"
+horizontal_alignment = 1
+vertical_alignment = 1
+
 [node name="Player 1" type="Label" parent="ColorRect"]
 layout_mode = 0
 offset_top = 864.0

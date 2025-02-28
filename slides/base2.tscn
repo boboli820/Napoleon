@@ -1,0 +1,49 @@
+[gd_scene load_steps=4 format=3 uid="uid://xs6lomn8j12e"]
+
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_ws1ao"]
+[ext_resource type="Theme" uid="uid://ra1bs3xbb65k" path="res://NapTextThemeCoopBl.tres" id="2_p2dgj"]
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="3_kr0du"]
+
+[node name="MPFSlide" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_ws1ao")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 1280.0
+offset_bottom = 1024.0
+
+[node name="BaseSceneTitle" type="Label" parent="ColorRect"]
+layout_mode = 0
+offset_right = 1275.0
+offset_bottom = 453.0
+theme = ExtResource("2_p2dgj")
+text = "This is the Base Scene"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Player 1" type="Label" parent="ColorRect"]
+layout_mode = 0
+offset_top = 864.0
+offset_right = 395.0
+offset_bottom = 1001.0
+theme = ExtResource("2_p2dgj")
+text = "PLAYER 1"
+
+[node name="current_player_score" type="Node2D" parent="ColorRect"]
+position = Vector2(594, 800)
+
+[node name="current_player_score" type="Label" parent="ColorRect/current_player_score"]
+offset_right = 678.0
+offset_bottom = 225.0
+theme = ExtResource("2_p2dgj")
+text = "7651212"
+horizontal_alignment = 2
+vertical_alignment = 1
+script = ExtResource("3_kr0du")
+variable_name = "current_player.score"
+comma_separate = true
+min_digits = 2

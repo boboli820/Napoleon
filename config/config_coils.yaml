@@ -30,7 +30,8 @@ coils:
     default_pulse_ms: 15
 
   c_trough_eject:
-    number: 
+    number: 3208-1
+    default_pulse_ms: 10 #pulse time = how long full power is held
 
   c_plunger:
     number: 3208-0

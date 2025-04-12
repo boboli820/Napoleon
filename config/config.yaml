@@ -36,9 +36,9 @@ modes:
 #    height: 600
 
 hardware:
-#  platform: fast
-#  driverboards: fast
-  platform: smart_virtual
+  platform: fast
+  driverboards: fast
+#  platform: smart_virtual
   
 ###########################################hardware section#################################
 # hardware requirements
@@ -64,9 +64,9 @@ fast:
     boards:
       neuron:
         model: FP-EXP-2000
-        #breakouts:
-          # - port: 1
-          #  model: FP-PWR-0030
+        breakouts:
+           - port: 1
+             model: FP-PWR-0007
     port: auto
     baud: 921600
     debug: False

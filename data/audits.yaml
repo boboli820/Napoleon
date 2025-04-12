@@ -1,51 +1,39 @@
 events:
   game_ended: 0
-  game_started: 7
+  game_started: 9
 missing_switches:
-  s_flipper_left: 4
-  s_flipper_left_eos: 7
-  s_flipper_right: 4
-  s_flipper_right_eos: 7
-  s_inlane_1_right: 7
-  s_inlane_2_right: 7
-  s_inlane_left: 7
-  s_launch_button: 7
-  s_outlane_left: 7
-  s_outlane_right: 7
-  s_sling_left: 7
-  s_sling_right: 7
-  s_start_button: 7
-  s_trough_1: 7
-  s_trough_2: 7
-  s_trough_3: 7
-  s_trough_4: 7
-  s_trough_5: 7
-  s_trough_6: 7
-  s_trough_jam: 7
+  s_flipper_left_eos: 9
+  s_flipper_right_eos: 9
+  s_inlane_1_right: 9
+  s_inlane_2_right: 9
+  s_outlane_left: 9
+  s_outlane_right: 9
+  s_sling_left: 9
+  s_start_button: 1
 player:
   score:
     average: 0
     top: []
     total: 0
 switches:
-  s_flipper_left: 3
+  s_flipper_left: 8
   s_flipper_left_eos: 0
-  s_flipper_right: 3
+  s_flipper_right: 9
   s_flipper_right_eos: 0
   s_inlane_1_right: 0
   s_inlane_2_right: 0
-  s_inlane_left: 0
-  s_launch_button: 0
+  s_inlane_left: 1
+  s_launch_button: 1
   s_outlane_left: 0
   s_outlane_right: 0
-  s_plunger_lane: 7
+  s_plunger_lane: 8
   s_sling_left: 0
-  s_sling_right: 0
-  s_start_button: 0
-  s_trough_1: 0
-  s_trough_2: 0
-  s_trough_3: 0
-  s_trough_4: 0
-  s_trough_5: 0
-  s_trough_6: 0
-  s_trough_jam: 0
+  s_sling_right: 2
+  s_start_button: 5
+  s_trough_1: 1
+  s_trough_2: 2
+  s_trough_3: 2
+  s_trough_4: 2
+  s_trough_5: 1
+  s_trough_6: 1
+  s_trough_jam: 1

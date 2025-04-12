@@ -1,0 +1,65 @@
+2025-04-12 19:40:51,751 : INFO : root : Loading config.
+2025-04-12 19:40:51,758 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-04-12 19:40:51,759 : WARNING : ConfigProcessor : Config file in cache changed: /Users/andre/Napoleon/config/config.yaml
+2025-04-12 19:40:51,759 : INFO : ConfigProcessor : Loading config from file /Users/andre/mpf/lib/python3.12/site-packages/mpf/mpfconfig.yaml.
+2025-04-12 19:40:51,784 : INFO : ConfigProcessor : Loading config: /Users/andre/mpf/lib/python3.12/site-packages/mpf/mpfconfig.yaml
+2025-04-12 19:40:51,785 : INFO : ConfigProcessor : Loading config from file /Users/andre/Napoleon/config/config.yaml.
+2025-04-12 19:40:51,788 : INFO : ConfigProcessor : Loading config: /Users/andre/Napoleon/config/config.yaml
+2025-04-12 19:40:51,790 : INFO : ConfigProcessor : Loading config: /Users/andre/Napoleon/config/config_ball_devices.yaml
+2025-04-12 19:40:51,792 : INFO : ConfigProcessor : Loading config: /Users/andre/Napoleon/config/config_coils.yaml
+2025-04-12 19:40:51,794 : INFO : ConfigProcessor : Loading config: /Users/andre/Napoleon/config/config_switches.yaml
+2025-04-12 19:40:51,796 : INFO : ConfigProcessor : Config file cache created: /var/folders/40/zrmpqx_508x_r3hv1rqbplvh0000gn/T/ea93227a266bc8299bfaa31138eab4ed.mpf_cache
+2025-04-12 19:40:51,891 : WARNING : ConfigProcessor : Config file in cache changed: /Users/andre/Napoleon/modes/attract/config/attract.yaml
+2025-04-12 19:40:51,891 : INFO : ConfigProcessor : Loading config from file /Users/andre/mpf/lib/python3.12/site-packages/mpf/modes/attract/config/attract.yaml.
+2025-04-12 19:40:51,892 : INFO : ConfigProcessor : Loading config: /Users/andre/mpf/lib/python3.12/site-packages/mpf/modes/attract/config/attract.yaml
+2025-04-12 19:40:51,892 : INFO : ConfigProcessor : Loading config from file /Users/andre/Napoleon/modes/attract/config/attract.yaml.
+2025-04-12 19:40:51,894 : INFO : ConfigProcessor : Loading config: /Users/andre/Napoleon/modes/attract/config/attract.yaml
+2025-04-12 19:40:51,895 : INFO : ConfigProcessor : Config file cache created: /var/folders/40/zrmpqx_508x_r3hv1rqbplvh0000gn/T/c1dd0a736541bd88f4e0ab507b1822f9.mpf_cache
+2025-04-12 19:40:51,896 : INFO : ConfigProcessor : Loading config from cache: /var/folders/40/zrmpqx_508x_r3hv1rqbplvh0000gn/T/bba75b4938b7bfaef1ae184809c7472c.mpf_cache
+2025-04-12 19:40:51,896 : INFO : ConfigProcessor : Loading config from cache: /var/folders/40/zrmpqx_508x_r3hv1rqbplvh0000gn/T/c1dd0a736541bd88f4e0ab507b1822f9.mpf_cache
+2025-04-12 19:40:51,897 : WARNING : ConfigProcessor : Config file in cache changed: /Users/andre/Napoleon/modes/base/config/base.yaml
+2025-04-12 19:40:51,897 : INFO : ConfigProcessor : Loading config from file /Users/andre/Napoleon/modes/base/config/base.yaml.
+2025-04-12 19:40:51,898 : INFO : ConfigProcessor : Loading config: /Users/andre/Napoleon/modes/base/config/base.yaml
+2025-04-12 19:40:51,898 : INFO : ConfigProcessor : Config file cache created: /var/folders/40/zrmpqx_508x_r3hv1rqbplvh0000gn/T/911d1b37f4ad2186d44e0f02a423c49c.mpf_cache
+2025-04-12 19:40:51,899 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev7
+2025-04-12 19:40:51,899 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-04-12-19-40-51-mpf-Andres-Mac-mini.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': '/Users/andre/Napoleon/logs/2025-04-12-19-40-51-mpf-Andres-Mac-mini.log'}
+2025-04-12 19:40:51,899 : INFO : Machine : MPF path: /Users/andre/mpf/lib/python3.12/site-packages/mpf
+2025-04-12 19:40:51,899 : INFO : Machine : Machine path: /Users/andre/Napoleon
+2025-04-12 19:40:51,899 : INFO : Machine : Platform: darwin
+2025-04-12 19:40:51,899 : INFO : Machine : Python executable location: /Users/andre/mpf/bin/python3.12
+2025-04-12 19:40:51,899 : INFO : Machine : Python version: 3.12.8 (64-bit)
+2025-04-12 19:40:51,901 : INFO : Machine : Initializing MPF...
+2025-04-12 19:40:51,999 : INFO : FAST : Auto-detecting ports for the following connections: ['net', 'exp']
+2025-04-12 19:40:52,022 : INFO : FAST : Detected NET on port /dev/cu.usbmodem14301
+2025-04-12 19:40:53,126 : INFO : FAST [NET] : Trying to connect to /dev/cu.usbmodem14301 at 921600bps
+2025-04-12 19:40:53,131 : INFO : FAST [NET] : Connected to /dev/cu.usbmodem14301 at 921600bps
+2025-04-12 19:40:53,135 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2025-04-12 19:40:53,137 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2025-04-12 19:40:53,139 : ERROR : FAST [EXP] : Failed to connect to any of the specified ports.
+2025-04-12 19:40:53,140 : INFO : Machine : Shutting down...
+2025-04-12 19:40:53,140 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-04-12 19:40:53,244 : ERROR : Machine : Failed to initialize MPF
+Traceback (most recent call last):
+  File "/Users/andre/mpf/lib/python3.12/site-packages/mpf/platforms/fast/fast.py", line 279, in _connect_to_hardware
+    await communicator.connect()
+  File "/Users/andre/mpf/lib/python3.12/site-packages/mpf/platforms/fast/communicators/base.py", line 114, in connect
+    raise SerialException(f"{self} could not connect to a serial port. Is it open in CoolTerm? ;)")
+serial.serialutil.SerialException: [FAST EXP] could not connect to a serial port. Is it open in CoolTerm? ;)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/andre/mpf/lib/python3.12/site-packages/mpf/core/machine.py", line 686, in initialize_mpf
+    raise init.exception()
+  File "/Users/andre/mpf/lib/python3.12/site-packages/mpf/core/machine.py", line 248, in initialize
+    await self.initialize_core_and_hardware()
+  File "/Users/andre/mpf/lib/python3.12/site-packages/mpf/core/machine.py", line 244, in initialize_core_and_hardware
+    await self._initialize_platforms()
+  File "/Users/andre/mpf/lib/python3.12/site-packages/mpf/core/machine.py", line 334, in _initialize_platforms
+    result.result()
+  File "/Users/andre/mpf/lib/python3.12/site-packages/mpf/platforms/fast/fast.py", line 125, in initialize
+    await self._connect_to_hardware()
+  File "/Users/andre/mpf/lib/python3.12/site-packages/mpf/platforms/fast/fast.py", line 286, in _connect_to_hardware
+    raise MpfRuntimeError(f"Could not open serial port {port}. Is something else connected to the port? "
+mpf.exceptions.runtime_error.MpfRuntimeError: Runtime Error in FAST: Could not open serial port exp. Is something else connected to the port? Did the port number or your computer change? Do you have permissions to access the port? Error Code: RE-FAST-1 (https://missionpinball.org/logs)
+2025-04-12 19:40:53,249 : INFO : root : MPF run loop ended.

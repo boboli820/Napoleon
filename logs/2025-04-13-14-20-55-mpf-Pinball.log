@@ -1,0 +1,885 @@
+2025-04-13 14:20:55,636 : INFO : root : Loading config.
+2025-04-13 14:20:55,645 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-04-13 14:20:55,646 : INFO : ConfigProcessor : Loading config from cache: /var/folders/40/zrmpqx_508x_r3hv1rqbplvh0000gn/T/ea93227a266bc8299bfaa31138eab4ed.mpf_cache
+2025-04-13 14:20:55,786 : INFO : ConfigProcessor : Loading config from cache: /var/folders/40/zrmpqx_508x_r3hv1rqbplvh0000gn/T/c1dd0a736541bd88f4e0ab507b1822f9.mpf_cache
+2025-04-13 14:20:55,787 : INFO : ConfigProcessor : Loading config from cache: /var/folders/40/zrmpqx_508x_r3hv1rqbplvh0000gn/T/bba75b4938b7bfaef1ae184809c7472c.mpf_cache
+2025-04-13 14:20:55,787 : INFO : ConfigProcessor : Loading config from cache: /var/folders/40/zrmpqx_508x_r3hv1rqbplvh0000gn/T/c1dd0a736541bd88f4e0ab507b1822f9.mpf_cache
+2025-04-13 14:20:55,788 : INFO : ConfigProcessor : Loading config from cache: /var/folders/40/zrmpqx_508x_r3hv1rqbplvh0000gn/T/911d1b37f4ad2186d44e0f02a423c49c.mpf_cache
+2025-04-13 14:20:55,788 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev7
+2025-04-13 14:20:55,789 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-04-13-14-20-55-mpf-Pinball.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': '/Users/andre/Napoleon/logs/2025-04-13-14-20-55-mpf-Pinball.log'}
+2025-04-13 14:20:55,789 : INFO : Machine : MPF path: /Users/andre/mpf/lib/python3.12/site-packages/mpf
+2025-04-13 14:20:55,789 : INFO : Machine : Machine path: /Users/andre/Napoleon
+2025-04-13 14:20:55,789 : INFO : Machine : Platform: darwin
+2025-04-13 14:20:55,789 : INFO : Machine : Python executable location: /Users/andre/mpf/bin/python3.12
+2025-04-13 14:20:55,789 : INFO : Machine : Python version: 3.12.8 (64-bit)
+2025-04-13 14:20:55,792 : INFO : Machine : Initializing MPF...
+2025-04-13 14:20:55,966 : INFO : FAST : Auto-detecting ports for the following connections: ['net', 'exp']
+2025-04-13 14:20:55,993 : INFO : FAST : Detected NET on port /dev/cu.usbmodem14301
+2025-04-13 14:20:56,000 : INFO : FAST : Detected EXP on port /dev/cu.usbmodem14303
+2025-04-13 14:20:56,109 : INFO : FAST [NET] : Trying to connect to /dev/cu.usbmodem14301 at 921600bps
+2025-04-13 14:20:56,115 : INFO : FAST [NET] : Connected to /dev/cu.usbmodem14301 at 921600bps
+2025-04-13 14:20:56,117 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2025-04-13 14:20:56,119 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2025-04-13 14:20:56,122 : INFO : FAST [EXP] : Trying to connect to /dev/cu.usbmodem14303 at 921600bps
+2025-04-13 14:20:56,127 : INFO : FAST [EXP] : Connected to /dev/cu.usbmodem14303 at 921600bps
+2025-04-13 14:20:56,128 : INFO : FAST [EXP] : Verifying hardware for EXP "neuron" (FP-EXP-2000, @48) with ID string "EXP FP-EXP-2000  0.34", board address 48
+2025-04-13 14:20:56,130 : INFO : FAST [EXP] : Verifying hardware for EXP "neuron" (FP-EXP-2000, @48) with ID string "LED FP-BRK-0001  0.8", board address 480
+2025-04-13 14:20:56,131 : INFO : FAST [EXP] : Verifying hardware for EXP "neuron" (FP-EXP-2000, @48) with ID string "PWR FP-PWR-0007  0.8", board address 481
+2025-04-13 14:20:56,132 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,183 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,183 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev7', 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,183 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev7, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,184 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.8', 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,210 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-14.7.4-x86_64-i386-64bit', 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,211 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,211 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '23.6.0', 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,211 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 23.6.0: Thu Dec 19 20:44:50 PST 2024; root:xnu-10063.141.1.703.2~1/RELEASE_X86_64', 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,211 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'x86_64', 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,211 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/andre/Napoleon/logs/2025-04-13-14-20-55-mpf-Pinball.log', 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,211 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-04-13 14:20:56,367 : INFO : SwitchController : <<<<<<< 's_trough_jam' active >>>>>>>
+2025-04-13 14:20:56,367 : INFO : SwitchController : <<<<<<< 's_flipper_right_eos' active >>>>>>>
+2025-04-13 14:20:56,367 : INFO : SwitchController : <<<<<<< 's_outlane_right' active >>>>>>>
+2025-04-13 14:20:56,367 : INFO : SwitchController : <<<<<<< 's_inlane_1_right' active >>>>>>>
+2025-04-13 14:20:56,367 : INFO : SwitchController : <<<<<<< 's_inlane_2_right' active >>>>>>>
+2025-04-13 14:20:56,367 : INFO : SwitchController : <<<<<<< 's_flipper_left_eos' active >>>>>>>
+2025-04-13 14:20:56,367 : INFO : SwitchController : <<<<<<< 's_outlane_left' active >>>>>>>
+2025-04-13 14:20:56,429 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-04-13 14:20:56,430 : INFO : SwitchController : Found active switch: (6, [FAST Platform Interface]) <switch.s_trough_jam>
+2025-04-13 14:20:56,430 : INFO : SwitchController : Found active switch: (8, [FAST Platform Interface]) <switch.s_flipper_right_eos>
+2025-04-13 14:20:56,430 : INFO : SwitchController : Found active switch: (10, [FAST Platform Interface]) <switch.s_outlane_right>
+2025-04-13 14:20:56,430 : INFO : SwitchController : Found active switch: (11, [FAST Platform Interface]) <switch.s_inlane_1_right>
+2025-04-13 14:20:56,430 : INFO : SwitchController : Found active switch: (12, [FAST Platform Interface]) <switch.s_inlane_2_right>
+2025-04-13 14:20:56,430 : INFO : SwitchController : Found active switch: (13, [FAST Platform Interface]) <switch.s_flipper_left_eos>
+2025-04-13 14:20:56,430 : INFO : SwitchController : Found active switch: (15, [FAST Platform Interface]) <switch.s_outlane_left>
+2025-04-13 14:20:56,434 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2025-04-13 14:20:56,437 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2025-04-13 14:20:56,448 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2025-04-13 14:20:56,448 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2025-04-13 14:20:56,451 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2025-04-13 14:20:56,452 : INFO : ball_device.bd_plunger : State: idle
+2025-04-13 14:20:56,868 : INFO : ball_device.bd_trough : BCH: Initial count: 1
+2025-04-13 14:20:56,868 : INFO : ball_device.bd_trough : State: idle
+2025-04-13 14:20:56,887 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-04-13 14:20:56,890 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-04-13 14:20:56,891 : INFO : BallController : Initial balls found: 1
+2025-04-13 14:20:56,892 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,893 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,893 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_flipper_left_eos'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,893 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_flipper_right_eos'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,893 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_inlane_1_right'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,893 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_inlane_2_right'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,893 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_outlane_left'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,894 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_outlane_right'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,894 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_5'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,894 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_6'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,894 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 0, 'top': [], 'total': 0}, 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,894 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 16, 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,894 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left_eos'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,894 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 20, 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,894 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right_eos'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,894 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlane_1_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,894 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlane_2_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,895 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlane_left'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,895 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch_button'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,895 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outlane_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,895 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outlane_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,895 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,895 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,895 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_right'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,895 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start_button'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,896 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,896 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,896 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,896 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_4'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,896 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_5'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,896 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_6'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,896 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-04-13 14:20:56,897 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-04-13 14:20:56,898 : INFO : ball_device.bd_trough : BCH: Count is unstable. Trying to reorder balls.
+2025-04-13 14:20:56,898 : WARNING : ball_device.bd_trough : Cannot reorder device because eject_coil_reorder_pulse is not configured
+2025-04-13 14:20:56,898 : INFO : ball_device.bd_trough : BCH: Repulse done. Waiting for balls to settle.
+2025-04-13 14:20:56,898 : INFO : ball_device.bd_trough : BCH: Reordered count: 1
+2025-04-13 14:20:56,899 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-04-13 14:20:56,899 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-04-13 14:20:56,915 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-04-13 14:20:56,916 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-04-13 14:20:56,917 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-04-13 14:20:56,917 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2025-04-13 14:20:56,917 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2025-04-13 14:20:56,918 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-04-13 14:20:56,918 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-04-13 14:20:56,919 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2025-04-13 14:20:56,919 : INFO : Mode.attract : Started. Priority: 10
+2025-04-13 14:20:56,919 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-13 14:20:56,919 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2025-04-13 14:20:56,920 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2025-04-13 14:20:56,921 : INFO : EventManager : Event: ======'item_highlighted'====== Args={'carousel': 'attract', 'direction': None, 'item': 'title'}
+2025-04-13 14:20:56,921 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-04-13 14:20:56,922 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2025-04-13 14:20:56,975 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-04-13 14:20:56,975 : INFO : EventManager : Event: ======'slide__removed'====== Args={'_from_bcp': True}
+2025-04-13 14:20:56,976 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'original_context': 'attract', 'original_calling_context': 'mode_attract_started', 'priority': 10.0, 'cmd': 'slides_play', '_from_bcp': True}
+2025-04-13 14:21:01,923 : INFO : Timer.attract_carousel_timer : Timer Complete
+2025-04-13 14:21:01,923 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2025-04-13 14:21:01,923 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2025-04-13 14:21:01,923 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2025-04-13 14:21:01,923 : INFO : EventManager : Event: ======'item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2025-04-13 14:21:01,924 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2025-04-13 14:21:01,924 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-04-13 14:21:01,924 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-04-13 14:21:04,688 : INFO : SwitchController : <<<<<<< 's_sling_right' active >>>>>>>
+2025-04-13 14:21:04,802 : INFO : SwitchController : <<<<<<< 's_sling_right' inactive >>>>>>>
+2025-04-13 14:21:04,869 : INFO : SwitchController : <<<<<<< 's_sling_right' active >>>>>>>
+2025-04-13 14:21:04,981 : INFO : SwitchController : <<<<<<< 's_sling_right' inactive >>>>>>>
+2025-04-13 14:21:05,015 : INFO : SwitchController : <<<<<<< 's_sling_right' active >>>>>>>
+2025-04-13 14:21:05,132 : INFO : SwitchController : <<<<<<< 's_sling_right' inactive >>>>>>>
+2025-04-13 14:21:05,240 : INFO : SwitchController : <<<<<<< 's_sling_right' active >>>>>>>
+2025-04-13 14:21:05,357 : INFO : SwitchController : <<<<<<< 's_sling_right' inactive >>>>>>>
+2025-04-13 14:21:05,382 : INFO : SwitchController : <<<<<<< 's_sling_right' active >>>>>>>
+2025-04-13 14:21:05,590 : INFO : SwitchController : <<<<<<< 's_sling_right' inactive >>>>>>>
+2025-04-13 14:21:05,650 : INFO : SwitchController : <<<<<<< 's_sling_right' active >>>>>>>
+2025-04-13 14:21:05,797 : INFO : SwitchController : <<<<<<< 's_sling_right' inactive >>>>>>>
+2025-04-13 14:21:05,867 : INFO : SwitchController : <<<<<<< 's_sling_right' active >>>>>>>
+2025-04-13 14:21:05,985 : INFO : SwitchController : <<<<<<< 's_sling_right' inactive >>>>>>>
+2025-04-13 14:21:06,065 : INFO : SwitchController : <<<<<<< 's_sling_right' active >>>>>>>
+2025-04-13 14:21:06,175 : INFO : SwitchController : <<<<<<< 's_sling_right' inactive >>>>>>>
+2025-04-13 14:21:06,243 : INFO : SwitchController : <<<<<<< 's_sling_right' active >>>>>>>
+2025-04-13 14:21:06,400 : INFO : SwitchController : <<<<<<< 's_sling_right' inactive >>>>>>>
+2025-04-13 14:21:06,665 : INFO : SwitchController : <<<<<<< 's_sling_right' active >>>>>>>
+2025-04-13 14:21:06,816 : INFO : SwitchController : <<<<<<< 's_sling_right' inactive >>>>>>>
+2025-04-13 14:21:06,906 : INFO : SwitchController : <<<<<<< 's_sling_right' active >>>>>>>
+2025-04-13 14:21:06,925 : INFO : Timer.attract_carousel_timer : Timer Complete
+2025-04-13 14:21:06,925 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2025-04-13 14:21:06,926 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2025-04-13 14:21:06,926 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2025-04-13 14:21:06,926 : INFO : EventManager : Event: ======'item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'mpf_logo'}
+2025-04-13 14:21:06,927 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2025-04-13 14:21:06,927 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-04-13 14:21:06,927 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-04-13 14:21:07,036 : INFO : SwitchController : <<<<<<< 's_sling_right' inactive >>>>>>>
+2025-04-13 14:21:07,091 : INFO : SwitchController : <<<<<<< 's_sling_right' active >>>>>>>
+2025-04-13 14:21:07,220 : INFO : SwitchController : <<<<<<< 's_sling_right' inactive >>>>>>>
+2025-04-13 14:21:11,928 : INFO : Timer.attract_carousel_timer : Timer Complete
+2025-04-13 14:21:11,928 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2025-04-13 14:21:11,928 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2025-04-13 14:21:11,928 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2025-04-13 14:21:11,928 : INFO : EventManager : Event: ======'item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2025-04-13 14:21:11,929 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2025-04-13 14:21:11,929 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-04-13 14:21:11,929 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-04-13 14:21:12,762 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2025-04-13 14:21:12,763 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2025-04-13 14:21:12,763 : INFO : EventManager : Event: ======'item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2025-04-13 14:21:12,763 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-04-13 14:21:12,951 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2025-04-13 14:21:13,225 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2025-04-13 14:21:13,225 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2025-04-13 14:21:13,225 : INFO : EventManager : Event: ======'item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'mpf_logo'}
+2025-04-13 14:21:13,226 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-04-13 14:21:13,383 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2025-04-13 14:21:13,604 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2025-04-13 14:21:13,604 : INFO : EventManager : Event: ======'s_flipper_left_active'====== Args={}
+2025-04-13 14:21:13,604 : INFO : EventManager : Event: ======'item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'credits'}
+2025-04-13 14:21:13,605 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-04-13 14:21:13,744 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2025-04-13 14:21:13,951 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2025-04-13 14:21:13,952 : INFO : EventManager : Event: ======'s_flipper_left_active'====== Args={}
+2025-04-13 14:21:13,952 : INFO : EventManager : Event: ======'item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'title'}
+2025-04-13 14:21:13,953 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-04-13 14:21:14,068 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2025-04-13 14:21:14,212 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2025-04-13 14:21:14,212 : INFO : EventManager : Event: ======'s_flipper_left_active'====== Args={}
+2025-04-13 14:21:14,212 : INFO : EventManager : Event: ======'item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'mpf_logo'}
+2025-04-13 14:21:14,213 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-04-13 14:21:14,331 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2025-04-13 14:21:14,416 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2025-04-13 14:21:14,416 : INFO : EventManager : Event: ======'s_flipper_left_active'====== Args={}
+2025-04-13 14:21:14,417 : INFO : EventManager : Event: ======'item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'credits'}
+2025-04-13 14:21:14,417 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-04-13 14:21:14,537 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2025-04-13 14:21:14,757 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2025-04-13 14:21:14,757 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2025-04-13 14:21:14,758 : INFO : EventManager : Event: ======'item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'mpf_logo'}
+2025-04-13 14:21:14,758 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-04-13 14:21:14,781 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2025-04-13 14:21:14,781 : INFO : EventManager : Event: ======'s_flipper_left_active'====== Args={}
+2025-04-13 14:21:14,781 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 1, 'triggering_switch': 's_flipper_left'}
+2025-04-13 14:21:14,781 : INFO : EventManager : Event: ======'item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'credits'}
+2025-04-13 14:21:14,782 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-04-13 14:21:14,893 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2025-04-13 14:21:14,893 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 1, 'triggering_switch': 's_flipper_left'}
+2025-04-13 14:21:14,923 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2025-04-13 14:21:14,923 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={'triggering_group': 2, 'triggering_switch': 's_flipper_right'}
+2025-04-13 14:21:16,322 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-04-13 14:21:16,449 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-04-13 14:21:16,449 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2025-04-13 14:21:16,449 : INFO : EventManager : Event: ======'game_start'====== Args={'buttons': [], 'hold_time': 0.12673274500411935}
+2025-04-13 14:21:16,449 : INFO : EventManager : Event: ======'mode_game_will_start'====== Args={'buttons': [], 'hold_time': 0.12673274500411935}
+2025-04-13 14:21:16,450 : INFO : EventManager : Event: ======'mode_game_starting'====== Args={'buttons': [], 'hold_time': 0.12673274500411935}
+2025-04-13 14:21:16,450 : INFO : EventManager : Event: ======'mode_attract_will_stop'====== Args={}
+2025-04-13 14:21:16,450 : INFO : EventManager : Event: ======'mode_attract_stopping'====== Args={}
+2025-04-13 14:21:16,450 : INFO : Mode.attract : Stopped.
+2025-04-13 14:21:16,450 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-13 14:21:16,451 : INFO : EventManager : Event: ======'mode_attract_stopped'====== Args={}
+2025-04-13 14:21:16,451 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'attract'}
+2025-04-13 14:21:16,451 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2025-04-13 14:21:16,451 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-04-13 14:21:16,452 : INFO : Mode.game : Started. Priority: 20
+2025-04-13 14:21:16,452 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-13 14:21:16,452 : INFO : EventManager : Event: ======'mode_game_started'====== Args={'buttons': [], 'hold_time': 0.12673274500411935}
+2025-04-13 14:21:16,452 : INFO : EventManager : Event: ======'game_will_start'====== Args={}
+2025-04-13 14:21:16,453 : INFO : EventManager : Event: ======'game_starting'====== Args={'game': <Mode.game>}
+2025-04-13 14:21:16,453 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('2ca81d6c-f0fd-422d-9969-0d7f350bb211'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e48aa7e6-b8d5-4012-bb6d-abef7f54376c'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-04-13 14:21:16,454 : INFO : EventManager : Event: ======'player_add_request'====== Args={}
+2025-04-13 14:21:16,454 : INFO : EventManager : Event: ======'player_will_add'====== Args={'number': 1}
+2025-04-13 14:21:16,454 : INFO : EventManager : Event: ======'player_adding'====== Args={'player': <Player 1>, 'number': 1}
+2025-04-13 14:21:16,454 : INFO : EventManager : Event: ======'player_added'====== Args={'player': <Player 1>, 'num': 1}
+2025-04-13 14:21:16,454 : INFO : Mode.game : Player added successfully. Total players: 1
+2025-04-13 14:21:16,454 : INFO : EventManager : Event: ======'player_index'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-04-13 14:21:16,454 : INFO : EventManager : Event: ======'player_number'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 1}
+2025-04-13 14:21:16,455 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-04-13 14:21:16,456 : INFO : EventManager : Event: ======'game_started'====== Args={}
+2025-04-13 14:21:16,457 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2025-04-13 14:21:16,457 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2025-04-13 14:21:16,462 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-04-13 14:21:16,463 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2025-04-13 14:21:16,470 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-13 14:21:16,471 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-13 14:21:16,471 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-13 14:21:16,471 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-13 14:21:16,472 : INFO : Mode.base : Started. Priority: 100
+2025-04-13 14:21:16,472 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-13 14:21:16,472 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-13 14:21:16,473 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2025-04-13 14:21:16,473 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-13 14:21:16,474 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2025-04-13 14:21:16,475 : INFO : EventManager : Event: ======'ball_start_target'====== Args={'target': 'playfield'}
+2025-04-13 14:21:16,475 : INFO : ball_device.bd_plunger : Setting up player-controlled eject. Balls: 1, Target: <playfield.playfield>, player_controlled_eject_event: s_launch_button_active
+2025-04-13 14:21:16,475 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2025-04-13 14:21:16,476 : INFO : ball_device.bd_trough : BCH: Count is unstable. Trying to reorder balls.
+2025-04-13 14:21:16,476 : WARNING : ball_device.bd_trough : Cannot reorder device because eject_coil_reorder_pulse is not configured
+2025-04-13 14:21:16,476 : INFO : ball_device.bd_trough : BCH: Repulse done. Waiting for balls to settle.
+2025-04-13 14:21:16,476 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-04-13 14:21:16,476 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 0}
+2025-04-13 14:21:16,476 : INFO : ball_device.bd_plunger : State: waiting_for_ball
+2025-04-13 14:21:16,477 : INFO : ball_device.bd_trough : State: ejecting
+2025-04-13 14:21:16,477 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2025-04-13 14:21:16,477 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 0}
+2025-04-13 14:21:16,478 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-04-13 14:21:16,478 : INFO : coil.c_trough_eject : Pulsing Driver for 15ms (1.0 pulse_power)
+2025-04-13 14:21:16,479 : INFO : EventManager : Event: ======'slide_base2_created'====== Args={'_from_bcp': True}
+2025-04-13 14:21:16,479 : INFO : EventManager : Event: ======'slide_attract_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-13 14:21:16,479 : INFO : EventManager : Event: ======'slide_base2_active'====== Args={'original_context': 'base', 'original_calling_context': 'mode_base_started', 'priority': 100.0, 'queue': '<QueuedEvent>', 'player': 1.0, 'ball': 1.0, 'balls_remaining': 2.0, 'is_extra_ball': False, 'cmd': 'slides_play', '_from_bcp': True}
+2025-04-13 14:21:16,479 : INFO : EventManager : Event: ======'slide_attract_removed'====== Args={'_from_bcp': True}
+2025-04-13 14:21:16,505 : INFO : SwitchController : <<<<<<< 's_trough_1' active >>>>>>>
+2025-04-13 14:21:16,505 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 3, 'prev_value': 2, 'change': 1}
+2025-04-13 14:21:16,506 : INFO : SwitchController : <<<<<<< 's_trough_jam' inactive >>>>>>>
+2025-04-13 14:21:16,506 : INFO : ball_device.bd_trough : State: ball_left
+2025-04-13 14:21:16,506 : INFO : ball_device.bd_trough : Ball left
+2025-04-13 14:21:16,506 : INFO : ball_device.bd_trough : Wait for confirm with timeout 3.0
+2025-04-13 14:21:16,524 : INFO : SwitchController : <<<<<<< 's_trough_jam' active >>>>>>>
+2025-04-13 14:21:16,524 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 4, 'prev_value': 3, 'change': 1}
+2025-04-13 14:21:16,734 : INFO : SwitchController : <<<<<<< 's_plunger_lane' active >>>>>>>
+2025-04-13 14:21:16,735 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 13, 'prev_value': 12, 'change': 1}
+2025-04-13 14:21:16,738 : INFO : SwitchController : <<<<<<< 's_trough_2' active >>>>>>>
+2025-04-13 14:21:16,739 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 4, 'prev_value': 3, 'change': 1}
+2025-04-13 14:21:16,756 : INFO : SwitchController : <<<<<<< 's_trough_5' active >>>>>>>
+2025-04-13 14:21:16,756 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_5'====== Args={'value': 2, 'prev_value': 1, 'change': 1}
+2025-04-13 14:21:16,756 : INFO : SwitchController : <<<<<<< 's_trough_4' active >>>>>>>
+2025-04-13 14:21:16,757 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_4'====== Args={'value': 5, 'prev_value': 4, 'change': 1}
+2025-04-13 14:21:16,761 : INFO : SwitchController : <<<<<<< 's_trough_3' active >>>>>>>
+2025-04-13 14:21:16,761 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 4, 'prev_value': 3, 'change': 1}
+2025-04-13 14:21:16,762 : INFO : SwitchController : <<<<<<< 's_trough_1' inactive >>>>>>>
+2025-04-13 14:21:16,764 : INFO : SwitchController : <<<<<<< 's_trough_6' active >>>>>>>
+2025-04-13 14:21:16,764 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_6'====== Args={'value': 2, 'prev_value': 1, 'change': 1}
+2025-04-13 14:21:16,780 : INFO : SwitchController : <<<<<<< 's_trough_4' inactive >>>>>>>
+2025-04-13 14:21:16,782 : INFO : SwitchController : <<<<<<< 's_trough_3' inactive >>>>>>>
+2025-04-13 14:21:16,783 : INFO : SwitchController : <<<<<<< 's_trough_2' inactive >>>>>>>
+2025-04-13 14:21:16,786 : INFO : SwitchController : <<<<<<< 's_trough_5' inactive >>>>>>>
+2025-04-13 14:21:17,236 : INFO : ball_device.bd_plunger : Received ball from <ball_device.bd_trough>
+2025-04-13 14:21:17,236 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 0, 'new_available_balls': 0, 'device': <ball_device.bd_plunger>}
+2025-04-13 14:21:17,237 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_entered'====== Args={'new_balls': 0, 'device': <ball_device.bd_plunger>}
+2025-04-13 14:21:17,237 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 1}
+2025-04-13 14:21:17,237 : INFO : ball_device.bd_trough : Got eject confirm
+2025-04-13 14:21:17,237 : INFO : ball_device.bd_trough : Eject successful
+2025-04-13 14:21:17,237 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_success'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>}
+2025-04-13 14:21:17,237 : INFO : ball_device.bd_plunger : State: waiting_for_target_ready
+2025-04-13 14:21:17,237 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': True, 'num_attempts': 0}
+2025-04-13 14:21:17,238 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 0}
+2025-04-13 14:21:17,238 : INFO : ball_device.bd_trough : State: idle
+2025-04-13 14:21:17,238 : INFO : ball_device.bd_plunger : State: ejecting
+2025-04-13 14:21:17,238 : INFO : ball_device.bd_plunger : Ejecting ball to <playfield.playfield>
+2025-04-13 14:21:17,238 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': True, 'num_attempts': 0}
+2025-04-13 14:21:17,239 : INFO : ball_device.bd_plunger : Wait for ball to leave device
+2025-04-13 14:21:17,286 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 2}
+2025-04-13 14:21:17,287 : INFO : ball_device.bd_trough : Received unexpected ball
+2025-04-13 14:21:17,287 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2025-04-13 14:21:17,287 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2025-04-13 14:21:17,287 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-04-13 14:21:17,287 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': -1, 'change': -1}
+2025-04-13 14:21:17,288 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2025-04-13 14:21:17,288 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': 1}
+2025-04-13 14:21:17,288 : INFO : BallController : Found a new ball which was captured from playfield. Known balls: 2
+2025-04-13 14:21:17,288 : INFO : EventManager : Event: ======'found_new_ball'====== Args={}
+2025-04-13 14:21:17,288 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_trough>}
+2025-04-13 14:21:17,288 : INFO : EventManager : Event: ======'ball_drain'====== Args={'device': <ball_device.bd_trough>, 'balls': 1}
+2025-04-13 14:21:17,289 : INFO : EventManager : Event: ======'ball_will_end'====== Args={}
+2025-04-13 14:21:17,289 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2025-04-13 14:21:17,289 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_trough>}
+2025-04-13 14:21:17,289 : INFO : ball_device.bd_trough : Received unexpected ball
+2025-04-13 14:21:17,289 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2025-04-13 14:21:17,289 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2025-04-13 14:21:17,289 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2025-04-13 14:21:17,290 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2025-04-13 14:21:17,290 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-04-13 14:21:17,290 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': -1, 'change': -1}
+2025-04-13 14:21:17,290 : INFO : Mode.base : Stopped.
+2025-04-13 14:21:17,290 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-13 14:21:17,291 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2025-04-13 14:21:17,291 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2025-04-13 14:21:17,292 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2025-04-13 14:21:17,292 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': 1}
+2025-04-13 14:21:17,292 : INFO : BallController : Found a new ball which was captured from playfield. Known balls: 3
+2025-04-13 14:21:17,292 : INFO : EventManager : Event: ======'found_new_ball'====== Args={}
+2025-04-13 14:21:17,292 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_trough>}
+2025-04-13 14:21:17,292 : INFO : EventManager : Event: ======'ball_drain'====== Args={'device': <ball_device.bd_trough>, 'balls': 1}
+2025-04-13 14:21:17,292 : INFO : EventManager : Event: ======'ball_ending'====== Args={}
+2025-04-13 14:21:17,293 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2025-04-13 14:21:17,293 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_trough>}
+2025-04-13 14:21:17,293 : INFO : EventManager : Event: ======'ball_ended'====== Args={}
+2025-04-13 14:21:17,294 : INFO : EventManager : Event: ======'player_turn_will_end'====== Args={'player': <Player 1>, 'number': 1}
+2025-04-13 14:21:17,295 : INFO : EventManager : Event: ======'player_turn_ending'====== Args={'player': <Player 1>, 'number': 1}
+2025-04-13 14:21:17,295 : INFO : EventManager : Event: ======'player_turn_ended'====== Args={'player': <Player 1>, 'number': 1}
+2025-04-13 14:21:17,295 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2025-04-13 14:21:17,295 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2025-04-13 14:21:17,296 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2025-04-13 14:21:17,296 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2025-04-13 14:21:17,297 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2025-04-13 14:21:17,297 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:17,297 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:18,298 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:18,298 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:19,299 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:19,299 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:19,700 : INFO : SwitchController : <<<<<<< 's_launch_button' active >>>>>>>
+2025-04-13 14:21:19,701 : INFO : EventManager : Event: ======'s_launch_button_active'====== Args={}
+2025-04-13 14:21:19,701 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch_button'====== Args={'value': 7, 'prev_value': 6, 'change': 1}
+2025-04-13 14:21:19,701 : INFO : coil.c_plunger : Pulsing Driver for 10ms (1.0 pulse_power)
+2025-04-13 14:21:19,738 : INFO : SwitchController : <<<<<<< 's_plunger_lane' inactive >>>>>>>
+2025-04-13 14:21:19,738 : INFO : ball_device.bd_plunger : State: ball_left
+2025-04-13 14:21:19,738 : INFO : ball_device.bd_plunger : Ball left
+2025-04-13 14:21:19,738 : INFO : ball_device.bd_plunger : Wait for confirm with timeout 5.0
+2025-04-13 14:21:19,839 : INFO : SwitchController : <<<<<<< 's_launch_button' inactive >>>>>>>
+2025-04-13 14:21:20,300 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:20,300 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:21,301 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:21,301 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:21,724 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2025-04-13 14:21:21,724 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 21, 'prev_value': 20, 'change': 1}
+2025-04-13 14:21:21,798 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2025-04-13 14:21:21,798 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 1, 'triggering_switch': 's_flipper_left'}
+2025-04-13 14:21:21,799 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 17, 'prev_value': 16, 'change': 1}
+2025-04-13 14:21:21,827 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2025-04-13 14:21:21,827 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 1, 'triggering_switch': 's_flipper_left'}
+2025-04-13 14:21:21,924 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2025-04-13 14:21:21,924 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={'triggering_group': 2, 'triggering_switch': 's_flipper_right'}
+2025-04-13 14:21:22,001 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2025-04-13 14:21:22,001 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 18, 'prev_value': 17, 'change': 1}
+2025-04-13 14:21:22,134 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2025-04-13 14:21:22,236 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2025-04-13 14:21:22,236 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 22, 'prev_value': 21, 'change': 1}
+2025-04-13 14:21:22,240 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2025-04-13 14:21:22,241 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 1, 'triggering_switch': 's_flipper_left'}
+2025-04-13 14:21:22,241 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 19, 'prev_value': 18, 'change': 1}
+2025-04-13 14:21:22,302 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:22,302 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:22,309 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2025-04-13 14:21:22,309 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 1, 'triggering_switch': 's_flipper_left'}
+2025-04-13 14:21:22,359 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2025-04-13 14:21:22,359 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={'triggering_group': 2, 'triggering_switch': 's_flipper_right'}
+2025-04-13 14:21:23,304 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:23,304 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:24,305 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:24,306 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:24,740 : INFO : ball_device.bd_plunger : State: failed_confirm
+2025-04-13 14:21:24,740 : INFO : ball_device.bd_plunger : Got timeout (5.0s) before confirm from <playfield.playfield>
+2025-04-13 14:21:24,842 : INFO : ball_device.bd_plunger : Confirming eject because target is playfield and ball did not return.
+2025-04-13 14:21:24,842 : INFO : ball_device.bd_plunger : Eject successful
+2025-04-13 14:21:24,842 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2025-04-13 14:21:24,843 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2025-04-13 14:21:24,843 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2025-04-13 14:21:24,843 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 0}
+2025-04-13 14:21:24,843 : INFO : ball_device.bd_plunger : State: idle
+2025-04-13 14:21:25,306 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:25,306 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:26,307 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:26,307 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:27,308 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:27,308 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:28,310 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:28,310 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:29,311 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:29,311 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:30,312 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:30,312 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:31,312 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:31,312 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:32,314 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:32,314 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:33,314 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:33,314 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:34,315 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:34,315 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:35,315 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:35,315 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:36,320 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:36,321 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:37,322 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:37,322 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:38,322 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:38,322 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:39,323 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:39,323 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:40,323 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:40,323 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:41,325 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:41,325 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:42,326 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:42,326 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:43,327 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:43,327 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:44,329 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:44,329 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:45,329 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:45,330 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:46,330 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:46,330 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:47,330 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:47,331 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:48,331 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:48,331 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:49,331 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:49,331 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:50,332 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:50,332 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:51,333 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:51,333 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:52,333 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:52,333 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:53,334 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:53,334 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:54,335 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:54,335 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:55,398 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:55,398 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:56,399 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:56,399 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:57,399 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:57,400 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:58,400 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:58,400 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:21:59,400 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:21:59,401 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:00,401 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:00,401 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:01,402 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:01,402 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:02,403 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:02,403 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:03,403 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:03,404 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:04,404 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:04,404 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:05,404 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:05,404 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:06,405 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:06,405 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:07,406 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:07,406 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:08,408 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:08,408 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:09,409 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:09,409 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:10,410 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:10,410 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:11,411 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:11,412 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:12,413 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:12,413 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:13,414 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:13,414 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:14,414 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:14,414 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:15,415 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:15,415 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:16,416 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:16,417 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:17,418 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:17,418 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:18,419 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:18,419 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:19,419 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:19,420 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:20,420 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:20,420 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:21,421 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:21,422 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:22,423 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:22,423 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:23,424 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:23,424 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:24,425 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:24,425 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:25,425 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:25,426 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:26,426 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:26,426 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:27,427 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:27,427 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:28,428 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:28,428 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:29,429 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:29,429 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:30,430 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:30,430 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:31,430 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:31,430 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:32,431 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:32,431 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:33,431 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:33,431 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:34,432 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:34,432 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:35,432 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:35,432 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:36,433 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:36,433 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:37,434 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:37,435 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:38,435 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:38,435 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:39,436 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:39,436 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:40,436 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:40,437 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:41,437 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:41,437 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:42,438 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:42,438 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:43,438 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:43,438 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:44,439 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:44,439 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:45,440 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:45,440 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:46,441 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:46,441 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:47,441 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:47,442 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:48,442 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:48,442 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:49,442 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:49,443 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:50,443 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:50,443 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:51,445 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:51,445 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:52,446 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:52,446 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:53,446 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:53,447 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:54,447 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:54,447 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:55,447 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:55,447 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:56,448 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:56,448 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:57,450 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:57,450 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:58,450 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:58,450 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:22:59,452 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:22:59,452 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:00,453 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:00,453 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:01,453 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:01,453 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:02,454 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:02,454 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:03,454 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:03,454 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:04,456 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:04,456 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:05,457 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:05,457 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:06,457 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:06,457 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:06,677 : INFO : SwitchController : <<<<<<< 's_plunger_lane' active >>>>>>>
+2025-04-13 14:23:06,678 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 14, 'prev_value': 13, 'change': 1}
+2025-04-13 14:23:07,029 : INFO : SwitchController : <<<<<<< 's_plunger_lane' inactive >>>>>>>
+2025-04-13 14:23:07,117 : INFO : SwitchController : <<<<<<< 's_plunger_lane' active >>>>>>>
+2025-04-13 14:23:07,117 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 15, 'prev_value': 14, 'change': 1}
+2025-04-13 14:23:07,294 : INFO : SwitchController : <<<<<<< 's_plunger_lane' inactive >>>>>>>
+2025-04-13 14:23:07,364 : INFO : SwitchController : <<<<<<< 's_plunger_lane' active >>>>>>>
+2025-04-13 14:23:07,364 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 16, 'prev_value': 15, 'change': 1}
+2025-04-13 14:23:07,459 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:07,459 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:07,520 : INFO : SwitchController : <<<<<<< 's_plunger_lane' inactive >>>>>>>
+2025-04-13 14:23:07,591 : INFO : SwitchController : <<<<<<< 's_plunger_lane' active >>>>>>>
+2025-04-13 14:23:07,591 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 17, 'prev_value': 16, 'change': 1}
+2025-04-13 14:23:08,091 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 1}
+2025-04-13 14:23:08,091 : INFO : ball_device.bd_plunger : Received unexpected ball
+2025-04-13 14:23:08,092 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2025-04-13 14:23:08,092 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2025-04-13 14:23:08,092 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': -1}
+2025-04-13 14:23:08,092 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_plunger>}
+2025-04-13 14:23:08,093 : INFO : ball_device.bd_plunger : Ejecting 1 unexpected balls using path deque([<ball_device.bd_plunger>, <playfield.playfield>])
+2025-04-13 14:23:08,093 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2025-04-13 14:23:08,093 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2025-04-13 14:23:08,093 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_plunger>}
+2025-04-13 14:23:08,094 : INFO : ball_device.bd_plunger : State: waiting_for_target_ready
+2025-04-13 14:23:08,094 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-04-13 14:23:08,095 : INFO : ball_device.bd_plunger : State: ejecting
+2025-04-13 14:23:08,095 : INFO : ball_device.bd_plunger : Ejecting ball to <playfield.playfield>
+2025-04-13 14:23:08,095 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-04-13 14:23:08,096 : INFO : ball_device.bd_plunger : Wait for ball to leave device
+2025-04-13 14:23:08,096 : INFO : coil.c_plunger : Pulsing Driver for 10ms (1.0 pulse_power)
+2025-04-13 14:23:08,234 : INFO : SwitchController : <<<<<<< 's_plunger_lane' inactive >>>>>>>
+2025-04-13 14:23:08,234 : INFO : ball_device.bd_plunger : State: ball_left
+2025-04-13 14:23:08,234 : INFO : ball_device.bd_plunger : Ball left
+2025-04-13 14:23:08,234 : INFO : ball_device.bd_plunger : Wait for confirm with timeout 5.0
+2025-04-13 14:23:08,460 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:08,461 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:09,461 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:09,461 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:10,462 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:10,462 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:11,462 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:11,463 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:12,463 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:12,463 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:13,235 : INFO : ball_device.bd_plunger : State: failed_confirm
+2025-04-13 14:23:13,235 : INFO : ball_device.bd_plunger : Got timeout (5.0s) before confirm from <playfield.playfield>
+2025-04-13 14:23:13,336 : INFO : ball_device.bd_plunger : Confirming eject because target is playfield and ball did not return.
+2025-04-13 14:23:13,336 : INFO : ball_device.bd_plunger : Eject successful
+2025-04-13 14:23:13,336 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2025-04-13 14:23:13,337 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2025-04-13 14:23:13,337 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2025-04-13 14:23:13,337 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 0}
+2025-04-13 14:23:13,338 : INFO : ball_device.bd_plunger : State: idle
+2025-04-13 14:23:13,464 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:13,464 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:14,333 : INFO : SwitchController : <<<<<<< 's_plunger_lane' active >>>>>>>
+2025-04-13 14:23:14,333 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 18, 'prev_value': 17, 'change': 1}
+2025-04-13 14:23:14,465 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:14,465 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:14,662 : INFO : SwitchController : <<<<<<< 's_plunger_lane' inactive >>>>>>>
+2025-04-13 14:23:14,812 : INFO : SwitchController : <<<<<<< 's_plunger_lane' active >>>>>>>
+2025-04-13 14:23:14,813 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 19, 'prev_value': 18, 'change': 1}
+2025-04-13 14:23:15,097 : INFO : SwitchController : <<<<<<< 's_plunger_lane' inactive >>>>>>>
+2025-04-13 14:23:15,250 : INFO : SwitchController : <<<<<<< 's_plunger_lane' active >>>>>>>
+2025-04-13 14:23:15,251 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 20, 'prev_value': 19, 'change': 1}
+2025-04-13 14:23:15,466 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:15,466 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:15,520 : INFO : SwitchController : <<<<<<< 's_plunger_lane' inactive >>>>>>>
+2025-04-13 14:23:15,880 : INFO : SwitchController : <<<<<<< 's_plunger_lane' active >>>>>>>
+2025-04-13 14:23:15,880 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 21, 'prev_value': 20, 'change': 1}
+2025-04-13 14:23:16,182 : INFO : SwitchController : <<<<<<< 's_plunger_lane' inactive >>>>>>>
+2025-04-13 14:23:16,466 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:16,466 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:16,486 : INFO : SwitchController : <<<<<<< 's_plunger_lane' active >>>>>>>
+2025-04-13 14:23:16,486 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 22, 'prev_value': 21, 'change': 1}
+2025-04-13 14:23:16,779 : INFO : SwitchController : <<<<<<< 's_plunger_lane' inactive >>>>>>>
+2025-04-13 14:23:17,042 : INFO : SwitchController : <<<<<<< 's_plunger_lane' active >>>>>>>
+2025-04-13 14:23:17,042 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 23, 'prev_value': 22, 'change': 1}
+2025-04-13 14:23:17,300 : INFO : SwitchController : <<<<<<< 's_plunger_lane' inactive >>>>>>>
+2025-04-13 14:23:17,467 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:17,468 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:17,546 : INFO : SwitchController : <<<<<<< 's_plunger_lane' active >>>>>>>
+2025-04-13 14:23:17,546 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 24, 'prev_value': 23, 'change': 1}
+2025-04-13 14:23:17,684 : INFO : SwitchController : <<<<<<< 's_plunger_lane' inactive >>>>>>>
+2025-04-13 14:23:17,848 : INFO : SwitchController : <<<<<<< 's_plunger_lane' active >>>>>>>
+2025-04-13 14:23:17,848 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 25, 'prev_value': 24, 'change': 1}
+2025-04-13 14:23:17,978 : INFO : SwitchController : <<<<<<< 's_plunger_lane' inactive >>>>>>>
+2025-04-13 14:23:18,084 : INFO : SwitchController : <<<<<<< 's_plunger_lane' active >>>>>>>
+2025-04-13 14:23:18,084 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 26, 'prev_value': 25, 'change': 1}
+2025-04-13 14:23:18,207 : INFO : SwitchController : <<<<<<< 's_plunger_lane' inactive >>>>>>>
+2025-04-13 14:23:18,307 : INFO : SwitchController : <<<<<<< 's_plunger_lane' active >>>>>>>
+2025-04-13 14:23:18,307 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 27, 'prev_value': 26, 'change': 1}
+2025-04-13 14:23:18,424 : INFO : SwitchController : <<<<<<< 's_plunger_lane' inactive >>>>>>>
+2025-04-13 14:23:18,469 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:18,469 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:18,527 : INFO : SwitchController : <<<<<<< 's_plunger_lane' active >>>>>>>
+2025-04-13 14:23:18,528 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 28, 'prev_value': 27, 'change': 1}
+2025-04-13 14:23:18,651 : INFO : SwitchController : <<<<<<< 's_plunger_lane' inactive >>>>>>>
+2025-04-13 14:23:18,744 : INFO : SwitchController : <<<<<<< 's_plunger_lane' active >>>>>>>
+2025-04-13 14:23:18,744 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 29, 'prev_value': 28, 'change': 1}
+2025-04-13 14:23:18,896 : INFO : SwitchController : <<<<<<< 's_plunger_lane' inactive >>>>>>>
+2025-04-13 14:23:19,018 : INFO : SwitchController : <<<<<<< 's_plunger_lane' active >>>>>>>
+2025-04-13 14:23:19,018 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 30, 'prev_value': 29, 'change': 1}
+2025-04-13 14:23:19,220 : INFO : SwitchController : <<<<<<< 's_plunger_lane' inactive >>>>>>>
+2025-04-13 14:23:19,416 : INFO : SwitchController : <<<<<<< 's_plunger_lane' active >>>>>>>
+2025-04-13 14:23:19,416 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 31, 'prev_value': 30, 'change': 1}
+2025-04-13 14:23:19,470 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:19,470 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:19,917 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 1}
+2025-04-13 14:23:19,917 : INFO : ball_device.bd_plunger : Received unexpected ball
+2025-04-13 14:23:19,917 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2025-04-13 14:23:19,918 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2025-04-13 14:23:19,918 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': -1}
+2025-04-13 14:23:19,919 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_plunger>}
+2025-04-13 14:23:19,919 : INFO : ball_device.bd_plunger : Ejecting 1 unexpected balls using path deque([<ball_device.bd_plunger>, <playfield.playfield>])
+2025-04-13 14:23:19,919 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2025-04-13 14:23:19,919 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2025-04-13 14:23:19,920 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_plunger>}
+2025-04-13 14:23:19,921 : INFO : ball_device.bd_plunger : State: waiting_for_target_ready
+2025-04-13 14:23:19,921 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-04-13 14:23:19,921 : INFO : ball_device.bd_plunger : State: ejecting
+2025-04-13 14:23:19,921 : INFO : ball_device.bd_plunger : Ejecting ball to <playfield.playfield>
+2025-04-13 14:23:19,921 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-04-13 14:23:19,922 : INFO : ball_device.bd_plunger : Wait for ball to leave device
+2025-04-13 14:23:19,922 : INFO : coil.c_plunger : Pulsing Driver for 10ms (1.0 pulse_power)
+2025-04-13 14:23:19,945 : INFO : SwitchController : <<<<<<< 's_inlane_1_right' inactive >>>>>>>
+2025-04-13 14:23:19,952 : INFO : SwitchController : <<<<<<< 's_inlane_1_right' active >>>>>>>
+2025-04-13 14:23:19,952 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-04-13 14:23:19,952 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlane_1_right'====== Args={'value': 1, 'prev_value': 0, 'change': 1}
+2025-04-13 14:23:19,952 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-04-13 14:23:20,015 : INFO : SwitchController : <<<<<<< 's_plunger_lane' inactive >>>>>>>
+2025-04-13 14:23:20,015 : INFO : ball_device.bd_plunger : State: ball_left
+2025-04-13 14:23:20,015 : INFO : ball_device.bd_plunger : Ball left
+2025-04-13 14:23:20,015 : INFO : ball_device.bd_plunger : Wait for confirm with timeout 5.0
+2025-04-13 14:23:20,472 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:20,472 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:21,472 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:21,473 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:22,474 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:22,474 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:23,475 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:23,475 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:24,476 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:24,476 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:25,016 : INFO : ball_device.bd_plunger : State: failed_confirm
+2025-04-13 14:23:25,016 : INFO : ball_device.bd_plunger : Got timeout (5.0s) before confirm from <playfield.playfield>
+2025-04-13 14:23:25,117 : INFO : ball_device.bd_plunger : Confirming eject because target is playfield and ball did not return.
+2025-04-13 14:23:25,118 : INFO : ball_device.bd_plunger : Eject successful
+2025-04-13 14:23:25,118 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2025-04-13 14:23:25,118 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2025-04-13 14:23:25,118 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2025-04-13 14:23:25,118 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 0}
+2025-04-13 14:23:25,119 : INFO : ball_device.bd_plunger : State: idle
+2025-04-13 14:23:25,477 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:25,478 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:26,478 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:26,478 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:27,478 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:27,479 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:28,479 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:28,479 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:29,484 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:29,485 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:30,485 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:30,485 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:31,486 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:31,486 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:32,487 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:32,487 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:33,488 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:33,488 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:34,488 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:34,489 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:35,489 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:35,489 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:36,491 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:36,491 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:37,491 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:37,491 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:38,492 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:38,492 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:39,492 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:39,493 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:40,493 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:40,493 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:41,494 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:41,494 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:42,495 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:42,495 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:43,495 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:43,495 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:44,496 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:44,496 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:45,496 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:45,497 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:46,497 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:46,497 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:47,498 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:47,498 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:48,498 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:48,498 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:49,499 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:49,499 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:50,499 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:50,500 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:51,500 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:51,500 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:52,501 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:52,502 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:53,502 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:53,503 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:54,503 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:54,503 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:55,504 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:55,504 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:56,505 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:56,506 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:57,506 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:57,506 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:58,507 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:58,507 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:23:59,509 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:23:59,509 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:24:00,510 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:24:00,510 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:24:01,512 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:24:01,512 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:24:02,513 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:24:02,513 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:24:03,514 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:24:03,514 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:24:04,515 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:24:04,515 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:24:05,518 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:24:05,518 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:24:06,519 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:24:06,519 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:24:07,520 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:24:07,520 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:24:08,521 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:24:08,522 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:24:09,522 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:24:09,522 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:24:10,523 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:24:10,524 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:24:11,525 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:24:11,525 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:24:12,527 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:24:12,527 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:24:13,528 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:24:13,528 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:24:14,528 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:24:14,529 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:24:15,529 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:24:15,529 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:24:16,530 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:24:16,530 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:24:17,531 : INFO : BallController : Found 1 ball(s) on playfield.
+2025-04-13 14:24:17,531 : WARNING : BallController : Playfields still contain balls. Waiting for those to drain.
+2025-04-13 14:24:17,878 : INFO : Machine : Shutting down...
+2025-04-13 14:24:17,878 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-04-13 14:24:17,880 : INFO : EventManager : Event: ======'mode_game_will_stop'====== Args={}
+2025-04-13 14:24:17,880 : INFO : EventManager : Event: ======'mode_game_stopping'====== Args={}
+2025-04-13 14:24:17,881 : INFO : Mode.game : Stopped.
+2025-04-13 14:24:17,881 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-13 14:24:17,882 : INFO : EventManager : Event: ======'mode_game_stopped'====== Args={}
+2025-04-13 14:24:17,882 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'game'}
+2025-04-13 14:24:17,987 : INFO : root : MPF run loop ended.

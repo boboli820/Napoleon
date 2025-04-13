@@ -86,9 +86,11 @@ autofire_coils:
   ac_slingshot_left:
     coil: c_sling_left
     switch: s_sling_left
+    enable_events: playfield_active
   ac_slingshot_right:
     coil: c_sling_right
     switch: s_sling_right
+    enable_events: playfield_active
 
 ###########################################Flippers Section#####################################
 #section for adding flippers
@@ -98,7 +100,7 @@ flippers:
     main_coil: c_flipper_left_main
     hold_coil: c_flipper_left_hold
     activation_switch: s_flipper_left
-    enable_events: #machine_reset_phase_3 #enable_events: machine_reset_phase_3 allows flipper coils to work during attract
+    enable_events: machine_reset_phase_3, playfield_active #enable_events: machine_reset_phase_3 allows flipper coils to work during attract
     eos_switch: s_flipper_left_eos
     use_eos: true
     repulse_on_eos_open: true
@@ -107,7 +109,7 @@ flippers:
     main_coil: c_flipper_right_main
     hold_coil: c_flipper_right_hold
     activation_switch: s_flipper_right
-    enable_events: #machine_reset_phase_3 #enable_events: machine_reset_phase_3 allows flipper coils to work during attract
+    enable_events: machine_reset_phase_3, playfield_active #enable_events: machine_reset_phase_3 allows flipper coils to work during attract
     eos_switch: s_flipper_right_eos
     use_eos: true
     repulse_on_eos_open: true

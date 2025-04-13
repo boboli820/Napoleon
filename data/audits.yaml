@@ -1,39 +1,38 @@
 events:
   game_ended: 0
-  game_started: 9
+  game_started: 15
 missing_switches:
-  s_flipper_left_eos: 9
-  s_flipper_right_eos: 9
-  s_inlane_1_right: 9
-  s_inlane_2_right: 9
-  s_outlane_left: 9
-  s_outlane_right: 9
-  s_sling_left: 9
-  s_start_button: 1
+  s_flipper_right: 1
+  s_flipper_right_eos: 1
+  s_inlane_1_right: 3
+  s_inlane_2_right: 15
+  s_outlane_left: 15
+  s_outlane_right: 15
+  s_start_button: 4
 player:
   score:
     average: 0
     top: []
     total: 0
 switches:
-  s_flipper_left: 8
-  s_flipper_left_eos: 0
-  s_flipper_right: 9
-  s_flipper_right_eos: 0
-  s_inlane_1_right: 0
+  s_flipper_left: 23
+  s_flipper_left_eos: 4
+  s_flipper_right: 25
+  s_flipper_right_eos: 3
+  s_inlane_1_right: 1
   s_inlane_2_right: 0
-  s_inlane_left: 1
-  s_launch_button: 1
+  s_inlane_left: 8
+  s_launch_button: 10
   s_outlane_left: 0
   s_outlane_right: 0
-  s_plunger_lane: 8
-  s_sling_left: 0
-  s_sling_right: 2
-  s_start_button: 5
-  s_trough_1: 1
-  s_trough_2: 2
-  s_trough_3: 2
-  s_trough_4: 2
-  s_trough_5: 1
-  s_trough_6: 1
-  s_trough_jam: 1
+  s_plunger_lane: 34
+  s_sling_left: 6
+  s_sling_right: 32
+  s_start_button: 11
+  s_trough_1: 6
+  s_trough_2: 7
+  s_trough_3: 7
+  s_trough_4: 8
+  s_trough_5: 5
+  s_trough_6: 6
+  s_trough_jam: 7

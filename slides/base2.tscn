@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://xs6lomn8j12e"]
 
-[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_ws1ao"]
+[ext_resource type="Script" uid="uid://bw2u66jmrtq4v" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_ws1ao"]
 [ext_resource type="Theme" uid="uid://ra1bs3xbb65k" path="res://NapTextThemeCoopBl.tres" id="2_p2dgj"]
-[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="3_kr0du"]
+[ext_resource type="Script" uid="uid://dbk18wjj5tfhd" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="3_kr0du"]
 
 [node name="MPFSlide" type="Control"]
 layout_mode = 3

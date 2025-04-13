@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://cqkth5vyvhu0n"]
 
-[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="1_jnbf7"]
+[ext_resource type="Script" uid="uid://dbk18wjj5tfhd" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="1_jnbf7"]
 [ext_resource type="Theme" uid="uid://ra1bs3xbb65k" path="res://NapTextThemeCoopBl.tres" id="1_q0a3y"]
 
 [node name="Base" type="Node"]

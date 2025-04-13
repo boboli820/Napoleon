@@ -11,7 +11,7 @@ switches:
 
   s_trough_1:
     number: 3208-0
-    type: NC
+    type: NO
   s_trough_2:
     number: 3208-1
     type: NO

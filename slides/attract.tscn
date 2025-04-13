@@ -1,9 +1,9 @@
 [gd_scene load_steps=8 format=3 uid="uid://c7hegpm1ay02j"]
 
-[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_m7nui"]
-[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_carousel.gd" id="2_qes38"]
+[ext_resource type="Script" uid="uid://bw2u66jmrtq4v" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_m7nui"]
+[ext_resource type="Script" uid="uid://ba134dm6cop4l" path="res://addons/mpf-gmc/classes/mpf_carousel.gd" id="2_qes38"]
 [ext_resource type="Texture2D" uid="uid://bi5algk1do3po" path="res://images/Napoleon_Lockers.png" id="3_76lff"]
-[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="3_hrjmj"]
+[ext_resource type="Script" uid="uid://dbk18wjj5tfhd" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="3_hrjmj"]
 [ext_resource type="Texture2D" uid="uid://dounln3l35d26" path="res://addons/mpf-gmc/images/logo_mpf.png" id="4_rw1hu"]
 [ext_resource type="Theme" uid="uid://ra1bs3xbb65k" path="res://NapTextThemeCoopBl.tres" id="5_gk37x"]
 [ext_resource type="FontFile" uid="uid://bbv6hb7eswj4a" path="res://fonts/COOPBL.TTF" id="5_y1q5g"]

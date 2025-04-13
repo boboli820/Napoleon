@@ -11,19 +11,25 @@ switches:
 
   s_trough_1:
     number: 3208-0
+    type: NC
   s_trough_2:
     number: 3208-1
+    type: NO
   s_trough_3:
     number: 3208-2
+    type: NO
   s_trough_4:
     number: 3208-3
+    type: NO
   s_trough_5:
     number: 3208-4
+    type: NO
   s_trough_6:
     number: 3208-5
+    type: NO
   s_trough_jam:
     number: 3208-6
-
+    type: NO
 
 #Cabinet Switches
 

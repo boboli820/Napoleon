@@ -9,7 +9,7 @@ mode:
   priority: 100
 
 slide_player:
-  mode_base_started: base
+  mode_base_started: base2
 
 sound_player:
   mode_base_started:

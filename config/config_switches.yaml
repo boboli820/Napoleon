@@ -35,6 +35,7 @@ switches:
 
   s_plunger_lane:
     number: 3208-7
+    tags: playfield_active
 
   s_flipper_right_eos:
     number: 3208-8
